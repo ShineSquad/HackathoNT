@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ХакатоНТ</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function updateTimer() {
+			const end = new Date(2020, 9, 14, 23, 59, 0); //17, 30, 0
+			let current = new Date(),
+				diff = (end - current) / 1000,
+				s = Math.round( diff % 60 ),
+				m = Math.floor( (diff / 60) % 60 ),
+				h = Math.floor( (diff / (60 * 60)) % 24 ),
+				d = Math.floor( diff / (60 * 60 * 24) )
+
+			return {
+				"days": d,
+				"hours": h,
+				"minutes": m,
+				"seconds": s
+			}
+		}
+
+		function displayTimer(_nodes, _times) {
+			for (i in _times) {
+				_nodes[i].innerText = _times[i]
+			}
+		}
+
+		window.onload = () => {
+			let setFormat = (num) => {return (num < 10) ? "0"+num : ""+num};
+			let startPos = updateTimer();
+			const nodes = {
+				"days": document.querySelector("#timer > ._days"),
+				"hours": document.querySelector("#timer > ._hours"),
+				"minutes": document.querySelector("#timer > ._minutes"),
+				"seconds": document.querySelector("#timer > ._seconds")
+			}
+
+			displayTimer(nodes, updateTimer());
+
+			setInterval(() => displayTimer(nodes, updateTimer()) , 1000)
+		}
+	</script>
+	<style type="text/css">
+		._days:after {
+			content: " д.";
+		}
+		._hours:after {
+			content: " ч.";
+		}
+		._minutes:after {
+			content: " м.";
+		}
+		._seconds:after {
+			content: " с.";
+		}
+	</style>
+</head>
+<body>
+	<div class="text">
+		До закрытия регистрации осталось:
+	</div>
+	<div id="timer">
+		<span class="_days"></span>
+		<span class="_hours"></span>
+		<span class="_minutes"></span>
+		<span class="_seconds"></span>
+	</div>
+	<button>Зарегистрироваться!</button>
+</body>
+</html>
