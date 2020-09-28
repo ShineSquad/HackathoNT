@@ -1,0 +1,66 @@
+#waiting {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+}
+
+#waiting .container {
+	min-width: 1300px;
+	height: auto;
+	display: flex;
+}
+
+#waiting .container .waiting_left {
+	width: 50%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+#waiting .container .waiting_right {
+	width: 50%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+#waiting .container .waiting_right .fix .waiting_right_title {
+	font-size: 48px;
+	line-height: 59px;
+	color: #1E1266;
+	font-family: MontserratBold;
+	margin-bottom: 50px;
+}
+
+#waiting .container .waiting_right .fix .waiting_right_list_role {
+	list-style-type: none;
+}
+
+#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item {
+	color: #1A76B5;
+	font-size: 24px;
+	line-height: 27px;
+	font-family: MontserratBold;
+	margin-top: 40px;
+	position: relative;
+	margin-left: 30px;
+}
+	#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item:before {
+		position: absolute;
+		content: '';
+		left: -25px;
+		top: 10px;
+		background: url(../images/ellipse_list2.svg);
+		width: 10px;
+		height: 10px;
+	}
+	#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item:first-child {
+		margin-top: 0;
+	}
+
+#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item p {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 40px;
+}

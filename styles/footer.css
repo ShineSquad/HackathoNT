@@ -1,0 +1,115 @@
+#footer {
+	width: 100%;
+	height: 150vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+#footer .container {
+	min-width: 1300px;
+	height: auto;
+}
+
+#footer .container .footer_irid {
+	width: 100%;
+	height: 40vh;
+}
+
+#footer .container .footer_irid .footer_title {
+	font-size: 40px;
+	line-height: 49px;
+	font-family: MontserratBold;
+	color: #91A0B1;
+	margin-bottom: 34px;
+}
+
+#footer .container .footer_irid .footer_irid_logo {
+	width: 20%;
+	margin-bottom: 34px;
+}
+
+#footer .container .footer_irid .footer_irid_company {
+	margin-bottom: 22px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #323E5F;
+}
+footer_shinesquad_description
+#footer .container .footer_irid .footer_irid_address {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 23px;
+	color: #323E5F;
+}
+
+#footer .container .footer_irid .footer_irid_phone {
+	margin-bottom: 14px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #323E5F;
+}
+
+#footer .container .footer_irid .footer_irid_link {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-decoration-line: underline;
+	color: #323E5F;
+}
+
+#footer .container .footer_shinesquad {
+	height: 60vh;
+	width: 100%;
+}
+
+#footer .container .footer_shinesquad .footer_shinesquad_prev {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	color: #63CFD0;
+	font-family: MontserratBold;
+}
+
+#footer .container .footer_shinesquad .footer_shinesquad_desc {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 49px;
+}
+
+#footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_description_name {
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 67px;
+	color: #1F75FF;
+	font-family: MontserratBold;
+}
+
+#footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_desc_description .one {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #323E5F;
+	margin-bottom: 12px;
+	margin-top: 25px;
+}
+
+#footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_desc_description .two {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #323E5F;
+	font-family: MontserratBold;
+	margin-bottom: 12px;
+}
+
+#footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_desc_description .three {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #323E5F;
+}
