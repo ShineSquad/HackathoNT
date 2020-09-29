@@ -58,7 +58,7 @@
 						<div class="main_content_date">16-18 октября 2020</div>
 						<div class="main_content_title">HackathoNT<br> Умный дом</div>
 						<div class="main_content_about">
-							<b>HackathoNT «Умный дом»</b> - это офлайн хакатон <br>новых технологий в сфере Smart House<br> для опытных и начинающих разработчиков<br> в Нижнем Тагиле, площадка пр. Мира 2А
+							<b>HackathoNT «Умный дом»</b> - это оффлайн хакатон <br>новых технологий в сфере Smart House<br> для опытных и начинающих разработчиков<br> в Нижнем Тагиле, площадка пр. Мира 2А
 						</div>
 						<div class="main_content_button" onclick="openForm()">Принять участие</div>
 					</div>
@@ -85,7 +85,7 @@
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
 					<div class="about_left_button" onclick="openForm()">Зарегистрироваться</div>
-					<p class="about_left_left">Осталось:</p>
+					<p class="about_left_left">Заявки на участие принимаются до 14 октября <br>Осталось:</p>
 					<div id="timer">
 						<div class="timer_item">
 							<div class="timer_item_block">
@@ -121,7 +121,7 @@
 						Во время хакатона команды IT-специалистов и начинающих <br>разработчиков займутся проектированием цифровых <br>сервисов, которые будут отвечать на существующие запросы <br>в рамках темы Smart House. <br><br>
 						Мы приглашаем участников реализовать свои идеи вместе с <br>опытными наставниками и побороться за денежный приз. <br><br>
 						Хакатон «Умный дом» не просто конкурс - с утра до 00 ночи <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
-						Собирай свою команду 2-4 человек или регистрируйся один <br>и мы подберем для тебя команду. В любом случае, это будут <br>незабываемые и плодотворные выходные. Присоединяйся!
+						Собирай свою команду 2-4 человек. Это будут <br>незабываемые и плодотворные выходные. <br>Присоединяйся!
 					</p>
 				</div>
 			</div>
@@ -186,7 +186,7 @@
 					</div>
 					<div class="tasks_list_item">
 						<div>
-							<img class="tasks_list_item_logo" src="images/mts_logo.svg">
+							<img class="tasks_list_item_logo" src="images/motiv_logo.png">
 							<p class="tasks_list_item_type">Умная квартира</p>
 							<p class="tasks_list_item_title">Создание сценариев управления устройствами Умного дома</p>
 							<p class="tasks_list_item_descriptions">Текст описание задачи. Управление с помощью IR команд. В данном случае команды от системы автоматизации идут не по проводам, напрямую в контроллер системы кондиционирования, а от ИК излучателя Умного дома в ИК приемник кондиционера.</p>
@@ -252,7 +252,11 @@
 						<div class="footer_shinesquad_desc_description">
 							<p class="one">Будем курировать мероприятие, всё расскажем и поможем. Вопросы пишите нам на почту:</p>
 							<p class="two">shinesquad.tech@gmail.com</p>
-							<p class="three">Или в соц. сети</p>
+							<div class="three">
+								Или в соц. сети 
+								<a href="https://vk.com/hackatont"><img class="icons" src="./images/vk.svg"></a>
+								<a href="https://www.instagram.com/hackatho.nt/?r=nametag"><img class="icons" src="./images/instagram.svg"></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -310,5 +314,6 @@
 				<div class="footer_button" onclick="openForm()">Зарегистрироваться</div>
 			</div>
 		</div>
+		<a id="scroll_top" draggable="false" href="#main"></a>
 	</body>
 </html>
