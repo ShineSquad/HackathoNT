@@ -147,13 +147,13 @@
 	bottom: calc(50% - 250px);
 	/*right: -100px;*/
 	/*position: absolute;*/
-	height: 500px;
+	height: 550px;
 	width: calc(1200px - 500px);
 }
 
 #main .container main .main_house img {
 	/*height: 100%;*/
 	/*width: 100%;*/
-	width: 1000px;
+	width: 1200px;
 	margin-left: -150px;
 }
