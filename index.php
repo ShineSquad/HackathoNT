@@ -269,7 +269,7 @@
 						<div class="shine_sq_user_description">
 							<p class="fi">Киселев Никита</p>
 							<p class="card_desc">Преподаватель кафедры ИТ НТГСПИ, Финалист многочисленных хакатонов</p>
-							<p class="skills"><b>Skils:</b> Back-end, Arduino</p>
+							<p class="skills"><b>Skills:</b> Back-end, Arduino</p>
 							<a href="https://vk.com/rick_sun">Подробнее</a>
 						</div>
 					</div>
@@ -280,7 +280,7 @@
 						<div class="shine_sq_user_description">
 							<p class="fi">Турищев Инвер</p>
 							<p class="card_desc">Победитель нескольких ИТ-конкурсов по России, успешный спикер</p>
-							<p class="skills"><b>Skils:</b> Projekt, Speech, Arduino</p>
+							<p class="skills"><b>Skills:</b> Projekt, Speech, Arduino</p>
 							<a href="https://vk.com/pussycat_in_boots">Подробнее</a>
 						</div>
 					</div>
@@ -291,7 +291,7 @@
 						<div class="shine_sq_user_description">
 							<p class="fi">Бояршинова Арина</p>
 							<p class="card_desc">Участник и финалист хакатонов. Проектировщик и дизайнер веб-сервисов</p>
-							<p class="skills"><b>Skils:</b> UX design, Events</p>
+							<p class="skills"><b>Skills:</b> UX design, Events</p>
 							<a href="https://vk.com/arina_boyarshinova">Подробнее</a>
 						</div>
 					</div>
@@ -302,7 +302,7 @@
 						<div class="shine_sq_user_description">
 							<p class="fi">Бурасов Артём</p>
 							<p class="card_desc">Участник и финалист хакатонов, координатор ИТ-мероприятий</p>
-							<p class="skills"><b>Skils:</b> Front-end, Arduino</p>
+							<p class="skills"><b>Skills:</b> Front-end, Arduino</p>
 							<a href="https://vk.com/id471609274">Подробнее</a>
 						</div>
 					</div>
