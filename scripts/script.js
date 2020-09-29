@@ -39,3 +39,12 @@ window.onload = () => {
 function openForm() {
 	location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform";
 }
+
+window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrolled > 2500) {
+  	document.getElementById('scroll_top').style.display = 'block';
+  } else {
+  	document.getElementById('scroll_top').style.display = 'none';
+  }
+}

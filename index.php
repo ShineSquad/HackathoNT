@@ -85,7 +85,7 @@
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
 					<div class="about_left_button" onclick="openForm()">Зарегистрироваться</div>
-					<p class="about_left_left">Осталось:</p>
+					<p class="about_left_left">Заявки на участие принимаются до 24 октября <br>Осталось:</p>
 					<div id="timer">
 						<div class="timer_item">
 							<div class="timer_item_block">
@@ -310,5 +310,6 @@
 				<div class="footer_button" onclick="openForm()">Зарегистрироваться</div>
 			</div>
 		</div>
+		<a id="scroll_top" draggable="false" href="#main"></a>
 	</body>
 </html>

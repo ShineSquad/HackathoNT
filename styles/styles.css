@@ -22,3 +22,14 @@ a {
 	text-decoration: none;
 	color: white;
 }
+
+#scroll_top {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 200px;
+	right: 200px;
+	background: url(../images/scroll_to_top.svg);
+	cursor: pointer;
+	display: none;
+}
