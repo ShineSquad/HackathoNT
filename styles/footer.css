@@ -1,6 +1,6 @@
 #footer {
 	width: 100%;
-	height: 150vh;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,7 +14,6 @@
 
 #footer .container .footer_irid {
 	width: 100%;
-	height: 40vh;
 }
 
 #footer .container .footer_irid .footer_title {
@@ -22,12 +21,13 @@
 	line-height: 49px;
 	font-family: MontserratBold;
 	color: #91A0B1;
-	margin-bottom: 34px;
+	margin-bottom: 79px;
+	margin-top: 152px;
 }
 
 #footer .container .footer_irid .footer_irid_logo {
 	width: 20%;
-	margin-bottom: 34px;
+	margin-bottom: 59px;
 }
 
 #footer .container .footer_irid .footer_irid_company {
@@ -37,7 +37,7 @@
 	line-height: 29px;
 	color: #323E5F;
 }
-footer_shinesquad_description
+
 #footer .container .footer_irid .footer_irid_address {
 	margin-bottom: 20px;
 	font-weight: bold;
@@ -63,11 +63,11 @@ footer_shinesquad_description
 }
 
 #footer .container .footer_shinesquad {
-	height: 60vh;
 	width: 100%;
 }
 
 #footer .container .footer_shinesquad .footer_shinesquad_prev {
+	margin-top: 163px;
 	font-weight: bold;
 	font-size: 25px;
 	line-height: 30px;
@@ -113,3 +113,98 @@ footer_shinesquad_description
 	line-height: 20px;
 	color: #323E5F;
 }
+
+#footer .container .cards {
+	margin-top: 75px;
+	margin-bottom: 141px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer .container .cards .card {
+	width: 215px;
+	height: 300px;
+}
+
+#footer .container .cards .card .avatar {
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	background-color: #E3E6EB;
+	margin-bottom: 20px;
+}
+
+#footer .container .cards .card .fi {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #6E7884;
+	margin-bottom: 11px;
+}
+
+#footer .container .cards .card .card_desc {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6E7884;
+	margin-bottom: 11px;
+}
+
+#footer .container .cards .card .skills {
+	font-size: 14px;
+	line-height: 17px;
+	color: #6E7884;
+}
+
+#main_footer {
+	height: 180px;
+	width: 100%;
+	background: linear-gradient(90deg, #1A76B5 10.26%, #1E1266 67.71%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#main_footer .container {
+	min-width: 1300px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#main_footer .container .madeby {
+	color: white;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+#main_footer .container .menu {
+	list-style-type: none;
+	display: flex;
+}
+
+#main_footer .container .menu li {
+	margin: 10px;
+	color: white;
+	font-size: 14px;
+	line-height: 17px;
+	cursor: pointer;
+}
+	#main_footer .container .menu li:hover {
+		color: #01FBFD;
+	}
+
+#main_footer .container .footer_button {
+	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
+	border-radius: 5px;
+	height: 45px;
+	width: 200px;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+}
+	#main_footer .container .footer_button:hover {
+		background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
+	}
