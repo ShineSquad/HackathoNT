@@ -5,13 +5,14 @@
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="images/logo.ico" type="image/png">
 
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<script type="text/javascript" src="scripts/main.js"></script>
 		<?php
 			require_once "php/check_mobile.php";
 			if ( check_mobile() ) {
 				?>
 					<script type="text/javascript" src="scripts/mobile_scripts.js"></script>
+
+					<link rel="stylesheet" type="text/css" href="styles/mobile/styles.css">
 
 					<link rel="stylesheet" type="text/css" href="styles/mobile/main.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/waiting.css">
@@ -27,6 +28,8 @@
 				?>
 					<script type="text/javascript" src="scripts/script.js"></script>
 
+					<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
 					<link rel="stylesheet" type="text/css" href="styles/main.css">
 					<link rel="stylesheet" type="text/css" href="styles/waiting.css">
 					<link rel="stylesheet" type="text/css" href="styles/prize_fund.css">
@@ -39,7 +42,8 @@
 			}
 		?>
 	</head>
-	<body>
+	<body class="onload">
+		<div id="loader" class="active"><img src="images/loader.svg"></div>
 		<div id="main">
 			<div class="container">
 				<header>

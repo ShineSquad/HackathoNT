@@ -4,6 +4,7 @@
 	background: linear-gradient(90deg, #1A76B5 10.26%, #1E1266 67.71%);
 	display: flex;
 	justify-content: center;
+	overflow: hidden;
 }
 
 #main .container {
