@@ -1,0 +1,77 @@
+#requirements {
+	width: 100%;
+	padding: 110px 0px 95px 0px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../images/background_requirements.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#requirements .container {
+	/*min-width: 1200px;*/
+	height: auto;
+}
+
+#requirements .container .requirements_title {
+	font-size: 42px;
+	line-height: 51px;
+	color: #01FBFD;
+	font-family: MontserratBold;
+	margin-bottom: 93px;
+}
+
+#requirements .container .requirements_content {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+#requirements .container .requirements_content .requirements_list_left {
+	width: 50%;
+	height: auto;
+}
+
+#requirements .container .requirements_content .requirements_list_right {
+	width: 50%;
+	height: auto;
+}
+
+.requirements_list_item {
+	font-size: 18px;
+	line-height: 27px;
+	color: white;
+	position: relative;
+	margin-bottom: 60px;
+	margin-left: 20px;
+}
+	.requirements_list_item:last-child {
+		margin-bottom: 120px;
+	}
+	.requirements_list_item:before {
+		position: absolute;
+		content: '';
+		top: 8px;
+		left: -20px;
+		width: 10px;
+		height: 10px;
+		background: url(../images/ellipse_list.svg);
+	}
+
+#requirements .container .requirements_button {
+	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
+	border-radius: 5px;
+	height: 60px;
+	width: 20%;
+	color: #182B60;
+	line-height: 60px;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	user-select: none;
+}
+	#requirements .container .requirements_button:hover {
+		background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
+	}

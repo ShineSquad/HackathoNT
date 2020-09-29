@@ -1,0 +1,163 @@
+#about {
+	width: 100%;
+	height: auto;
+	padding: 130px 0px;
+	display: flex;
+	justify-content: center;
+	background: url(../images/background_about.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#about .container {
+	/*min-width: 1200px;*/
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#about .container .about_left {
+	height: auto;
+	width: 50%;
+}
+
+#about .container .about_left .about_left_list_questions {
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+#about .container .about_left .about_left_list_questions .list_questions_item {
+	color: #01FBFD;
+	font-size: 19px;
+	line-height: 28px;
+	font-weight: 600;
+	position: relative;
+}
+	#about .container .about_left .about_left_list_questions .list_questions_item:before {
+		position: absolute;
+		content: '';
+		left: -20px;
+		top: 10px;
+		background: url(../images/ellipse_list.svg);
+		width: 10px;
+		height: 10px;
+	}
+
+#about .container .about_left .about_left_call {
+	font-size: 37px;
+	line-height: 45px;
+	color: #01FBFD;
+	margin-top: 55px;
+	font-family: MontserratBold;
+}
+
+#about .container .about_left .about_left_button {
+	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
+	border-radius: 5px;
+	height: 60px;
+	width: 40%;
+	color: #182B60;
+	line-height: 60px;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	user-select: none;
+	margin-top: 55px;
+}
+	#about .container .about_left .about_left_button:hover {
+		background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
+	}
+
+#about .container .about_left .about_left_left {
+	margin-top: 98px;
+	font-size: 18px;
+	line-height: 22px;
+	color: white;
+	margin-bottom: 21px;
+	font-weight: bold;
+}
+
+#about .container .about_left #timer {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+#about .container .about_left #timer p {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: MontserratBold;
+	margin-bottom: 32px;
+}
+
+#about .container .about_left #timer .timer_item {
+	width: 105px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+	#about .container .about_left #timer .timer_item:first-child {
+		margin-left: 0;
+	}
+
+#about .container .about_left #timer .timer_item .timer_item_block {
+	width: 105px;
+	height: 114px;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	line-height: 115px;
+	position: relative;
+}
+	#about .container .about_left #timer .timer_item .timer_item_block:after {
+		position: absolute;
+		content: '';
+		width: 105px;
+		height: 57px;
+		top: 0;
+		left: 0;
+		background: linear-gradient(180deg, #EBEFF4 0%, #C3D2E4 100%);
+		border-radius: 5px 5px 0px 0px;
+		z-index: 99;
+	}
+
+#about .container .about_left #timer .timer_item .timer_item_block div {
+	z-index: 100;
+	position: relative;
+	color: #1E1266;
+	font-size: 62px;
+	font-weight: 800;
+	font-family: MontserratBold;
+	text-align: center;
+}
+
+#about .container .about_left #timer .timer_item .timer_item_name {
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	margin-top: 10px;
+}
+
+#about .container .about_right {
+	height: auto;
+	width: 50%;
+}
+
+#about .container .about_right .about_right_title {
+	color: white;
+	font-size: 36px;
+	line-height: 44px;
+	font-family: MontserratBold;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 51px;
+}
+
+#about .container .about_right .about_right_description {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	color: white;
+}

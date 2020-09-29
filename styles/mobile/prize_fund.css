@@ -1,0 +1,30 @@
+#prize_fund {
+	width: 100%;
+	height: auto;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#prize_fund .container {
+	/*min-width: 1200px;*/
+	height: auto;
+	text-align: center;
+}
+
+#prize_fund .container img {
+	margin-top: 65px;
+}
+
+#prize_fund .container .prize_fund_title {
+	font-size: 27px;
+	line-height: 33px;
+}
+
+#prize_fund .container .prize_fund_count {
+	font-size: 85px;
+	line-height: 104px;
+	font-family: MontserratBold;
+	margin-bottom: 65px;
+}

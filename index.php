@@ -6,14 +6,33 @@
 		<link rel="shortcut icon" href="images/logo.ico" type="image/png">
 
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
-		<link rel="stylesheet" type="text/css" href="styles/main.css">
-		<link rel="stylesheet" type="text/css" href="styles/prize_fund.css">
-		<link rel="stylesheet" type="text/css" href="styles/about.css">
-		<link rel="stylesheet" type="text/css" href="styles/waiting.css">
-		<link rel="stylesheet" type="text/css" href="styles/tasks.css">
-		<link rel="stylesheet" type="text/css" href="styles/requirements.css">
-		<link rel="stylesheet" type="text/css" href="styles/schedule.css">
-		<link rel="stylesheet" type="text/css" href="styles/footer.css">
+		<?php
+			require_once "php/check_mobile.php";
+			if ( check_mobile() ) {
+				?>
+					<link rel="stylesheet" type="text/css" href="styles/mobile/main.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/waiting.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/prize_fund.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/about.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/tasks.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/requirements.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/schedule.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/ooter.css">
+				<?
+			}
+			else {
+				?>
+					<link rel="stylesheet" type="text/css" href="styles/main.css">
+					<link rel="stylesheet" type="text/css" href="styles/waiting.css">
+					<link rel="stylesheet" type="text/css" href="styles/prize_fund.css">
+					<link rel="stylesheet" type="text/css" href="styles/about.css">
+					<link rel="stylesheet" type="text/css" href="styles/tasks.css">
+					<link rel="stylesheet" type="text/css" href="styles/requirements.css">
+					<link rel="stylesheet" type="text/css" href="styles/schedule.css">
+					<link rel="stylesheet" type="text/css" href="styles/footer.css">
+				<?
+			}
+		?>
 
 		<script type="text/javascript" src="scripts/script.js"></script>
 
