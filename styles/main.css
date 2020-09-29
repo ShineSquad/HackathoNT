@@ -18,6 +18,10 @@
 	height: 10vh;
 }
 
+#main .container header .mobile_block {
+	display: none;
+}
+
 #main .container header .logo {
 	display: flex;
 	align-items: center;
@@ -29,6 +33,10 @@
 	list-style-type: none;
 }
 
+#main .container header .mobile_content {
+	display: none;
+}
+
 #main .container header .navigation .nav_item {
 	margin: 15px;
 	color: white;
@@ -36,7 +44,7 @@
 	cursor: pointer;
 	user-select: none;
 }
-	#main .container header .navigation .nav_item:hover a{
+	#main .container header .navigation .nav_item:hover a {
 		color: #01FBFD;
 	}
 

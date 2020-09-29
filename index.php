@@ -54,6 +54,36 @@
 						<li class="nav_item"><a href="#requirements">Правила</a></li>
 						<li class="nav_item"><a href="#footer">Организаторы</a></li>
 					</ul>
+					<div class="mobile_block">
+						<div class="mobile_logo">
+							<img src="images/white_irid_logo.svg">
+						</div>
+						<div class="mobile_burger">
+							<img id="open_burger" src="images/open_burger.svg">
+							<img id="close_burger" src="images/close_burger.svg">
+						</div>
+					</div>
+
+					<div class="mobile_content">
+						<ul class="nav_menu">
+							<li class="nav_item"><a href="#prize_fund">Призы</a></li>
+							<li class="nav_item"><a href="#about">О хакатоне</a></li>
+							<li class="nav_item"><a href="#waiting">Кого мы ждем</a></li>
+							<li class="nav_item"><a href="#tasks">Задачи</a></li>
+							<li class="nav_item"><a href="#requirements">Правила</a></li>
+							<li class="nav_item"><a href="#footer">Организаторы</a></li>
+						</ul>
+						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
+						<div class="mobile_content_button">Принять участие</div>
+						<p class="text">Курирует хакатон <br>команда <b>Shine Squad</b>. <br>Вопросы пишите нам на почту:</p>
+						<p class="mail">shinesquad.tech@gmail.com</p>
+						<div class="social">
+							или в соц. сети
+							<a href="https://vk.com/hackatont"><img src="images/vk.svg"></a>
+							<a href="https://www.instagram.com/hackatho.nt/?r=nametag"><img src="images/instagram.svg"></a>
+						</div>
+					</div>
+
 				</header>
 				<main>
 					<div class="main_content">
