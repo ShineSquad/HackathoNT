@@ -47,10 +47,11 @@
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+	flex-direction: row;
 }
 
 #main .container main .main_content {
-	width: 50%;
+	width: 500px;
 	height: auto;
 }
 
@@ -136,11 +137,13 @@
 
 #main .container main .main_house {
 	bottom: calc(50% - 250px);
-	right: -100px;
-	position: absolute;
+	/*right: -100px;*/
+	/*position: absolute;*/
 	height: 500px;
+	width: calc(1200px - 500px);
 }
 
 #main .container main .main_house img {
-	height: 100%;
+	/*height: 100%;*/
+	width: 100%;
 }

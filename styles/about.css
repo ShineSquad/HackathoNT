@@ -1,6 +1,7 @@
 #about {
 	width: 100%;
-	height: 100vh;
+	height: auto;
+	padding: 130px 0px;
 	display: flex;
 	justify-content: center;
 	background: url(../images/background_about.png);
