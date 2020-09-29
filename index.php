@@ -21,7 +21,7 @@
 					<link rel="stylesheet" type="text/css" href="styles/mobile/requirements.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/schedule.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/footer.css">
-				<?
+				<?php
 			}
 			else {
 				?>
@@ -35,7 +35,7 @@
 					<link rel="stylesheet" type="text/css" href="styles/requirements.css">
 					<link rel="stylesheet" type="text/css" href="styles/schedule.css">
 					<link rel="stylesheet" type="text/css" href="styles/footer.css">
-				<?
+				<?php
 			}
 		?>
 	</head>

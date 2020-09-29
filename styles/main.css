@@ -153,5 +153,7 @@
 
 #main .container main .main_house img {
 	/*height: 100%;*/
-	width: 100%;
+	/*width: 100%;*/
+	width: 1000px;
+	margin-left: -150px;
 }

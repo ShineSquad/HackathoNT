@@ -24,12 +24,14 @@ a {
 }
 
 #scroll_top {
-	width: 70px;
-	height: 70px;
+	width: 40px;
+	height: 40px;
 	position: fixed;
-	bottom: 200px;
-	right: 200px;
+	bottom: 100px;
+	right: 100px;
 	background: url(../images/scroll_to_top.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	cursor: pointer;
 	display: none;
 }
