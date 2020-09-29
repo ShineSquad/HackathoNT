@@ -70,7 +70,7 @@
 		list-style-type: none;
 	}
 	#main .container header .navigation.active ~ .mobile_content .nav_menu .nav_item {
-		margin: 100px;
+		margin: 80px;
 		font-size: 0.5em;
 	}
 		#main .container header .navigation.active ~ .mobile_content .nav_menu .nav_item a:hover {
@@ -105,13 +105,13 @@
 		text-align: center;
 		color: white;
 		font-size: 0.5em;
-		margin-bottom: 38px;
+		margin-bottom: 28px;
 	}
 	#main .container header .navigation.active ~ .mobile_content .mail {
 		text-align: center;
 		color: white;
 		font-size: 0.5em;
-		margin-bottom: 35px;
+		margin-bottom: 25px;
 		font-weight: bold;
 		font-family: MontserratBold;
 	}
@@ -176,32 +176,14 @@
 }
 
 #main .container main .main_content .main_content_date {
-	co`r: #01FBFD;
+	color: #01FBFD;
 	font-size: 5em;
 	line-height: 44px;
 	font-family: MontserratBold;
-	margin-bottom: 35px;
+	margin-bottom: 50px;
 	position: relative;
 	display: inline-flex;
 }
-	#main .container main .main_content .main_content_date:before {
-		content: '';
-		width: 10px;
-		height: 10px;
-		position: absolute;
-		top: -10px;
-		left: -30px;
-		background: url(../../images/ellipse.svg);
-	}
-	#main .container main .main_content .main_content_date:after {
-		content: '';
-		width: 21px;
-		height: 21px;
-		position: absolute;
-		top: -25px;
-		right: -35px;
-		background: url(../../images/date_group.svg);
-	}
 
 #main .container main .main_content .main_content_title {
 	color: white;
@@ -209,56 +191,38 @@
 	line-height: 1em;
 	text-transform: uppercase;
 	font-family: MontserratBold;
-	margin-bottom: 128px;
+	margin-bottom: 50px;
 	position: relative;
 	display: inline-flex;
 }
-	#main .container main .main_content .main_content_title:before {
-		content: '';
-		width: 21px;
-		height: 21px;
-		position: absolute;
-		bottom: -25px;
-		left: -35px;
-		background: url(../../images/title_group.svg);
-	}
-	#main .container main .main_content .main_content_title:after {
-		content: '';
-		width: 10px;
-		height: 10px;
-		position: absolute;
-		top: -10px;
-		right: -30px;
-		background: url(../../images/ellipse.svg);
-	}
 
 #main .container main .main_content .main_content_about {
 	color: white;
-	font-size: 3.4em;
+	font-size: 2.4em;
 	line-height: 1em;
-	margin-bottom: 148px;
+	margin-bottom: 80px;
 }
 
 #main .container main .main_content .main_content_button {
 	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
 	border-radius: 15px;
-	font-size: 4em;
-	padding: 20px 30px;
+	font-size: 2em;
+	padding: 40px 30px;
 	color: #182B60;
 	text-align: center;
 	font-weight: 600;
 	cursor: pointer;
 	user-select: none;
+	width: 40%;
 }
 	#main .container main .main_content .main_content_button:hover {
 		background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
 	}
 
 #main .container main .main_house {
-	bottom: calc(50% - 250px);
+	/*bottom: calc(50% - 250px);*/
 	height: 500px;
-	width: calc(1200px - 500px);
-	display: none;
+	/*width: calc(1200px - 500px);*/
 }
 
 #main .container main .main_house img {

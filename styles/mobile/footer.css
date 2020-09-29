@@ -149,15 +149,18 @@
 }
 
 #footer .container .cards .card a {
-	color: black;
+	color: white;
 	font-size: 2em;
-	background: red;
-	border-radius: 5px;
+	background: #63CFD0;
+	border-radius: 3px;
 	padding: 10px 15px;
 	margin: 15px 0px;
 	display: inline-block;
 	/*box-sizing: border-box;*/
 }
+	#footer .container .cards .card a:hover {
+		background: #1F75FF;
+	}
 
 #footer .container .cards .card .avatar {
 	width: 160px;

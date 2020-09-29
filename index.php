@@ -90,7 +90,7 @@
 						<div class="main_content_date">16-18 октября 2020</div>
 						<div class="main_content_title">HackathoNT<br> Умный дом</div>
 						<div class="main_content_about">
-							<b>HackathoNT «Умный дом»</b> - это оффлайн хакатон <br>новых технологий в сфере Smart House<br> для опытных и начинающих разработчиков<br> в Нижнем Тагиле, площадка пр. Мира 2А
+							<b style="font-family: MontserratBold">HackathoNT «Умный дом»</b> - это оффлайн хакатон <br>новых технологий в сфере Smart House<br> для опытных и начинающих разработчиков<br> в Нижнем Тагиле, площадка пр. Мира 2А
 						</div>
 						<div class="main_content_button" onclick="openForm()">Принять участие</div>
 					</div>
