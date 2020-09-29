@@ -10,6 +10,8 @@
 			require_once "php/check_mobile.php";
 			if ( check_mobile() ) {
 				?>
+					<script type="text/javascript" src="scripts/mobile_scripts.js"></script>
+
 					<link rel="stylesheet" type="text/css" href="styles/mobile/main.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/waiting.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/prize_fund.css">
