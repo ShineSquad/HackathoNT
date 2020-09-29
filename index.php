@@ -265,7 +265,7 @@
 				<div class="cards">
 					<div class="card">
 						<div class="avatar">
-							<img src="images/photos/nikita.png">
+							<img src="images/photos/nikita.svg">
 						</div>
 						<div class="shine_sq_user_description">
 							<p class="fi">Киселев Никита</p>
@@ -276,7 +276,7 @@
 					</div>
 					<div class="card">
 						<div class="avatar">
-							<img src="images/photos/nekit.jpg">
+							<img src="images/photos/nekit.svg">
 						</div>
 						<div class="shine_sq_user_description">
 							<p class="fi">Турищев Инвер</p>
@@ -287,7 +287,7 @@
 					</div>
 					<div class="card">
 						<div class="avatar">
-							<img src="images/photos/arina.png">
+							<img src="images/photos/arina.svg">
 						</div>
 						<div class="shine_sq_user_description">
 							<p class="fi">Бояршинова Арина</p>
@@ -298,7 +298,7 @@
 					</div>
 					<div class="card">
 						<div class="avatar">
-							<img src="images/photos/artem.png">
+							<img src="images/photos/artem.svg">
 						</div>
 						<div class="shine_sq_user_description">
 							<p class="fi">Бурасов Артём</p>
