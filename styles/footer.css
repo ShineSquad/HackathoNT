@@ -142,7 +142,8 @@
 	color: white;
 	background-color: #63CFD0;
 	border-radius: 3px;
-	padding: 5px;
+	padding: 10px;
+	font-size: 14px;
 }
 
 #footer .container .cards .card a:hover {
@@ -180,10 +181,10 @@
 }
 
 #footer .container .cards .card .skills {
-	font-size: 14px;
+	font-size: 1px;
 	line-height: 17px;
 	color: #6E7884;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 #main_footer {
