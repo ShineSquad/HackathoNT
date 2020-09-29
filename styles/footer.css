@@ -138,22 +138,6 @@
 	position: relative;
 }
 
-#footer .container .cards .card:hover {
-	background-color: #F1F1F1;
-}
-
-#footer .container .cards .card:hover a {
-	display: block;
-}
-
-#footer .container .cards .card a {
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-	display: none;
-	color: black;
-}
-
 #footer .container .cards .card .avatar {
 	width: 160px;
 	height: 160px;
