@@ -9,7 +9,6 @@
 #main .container {
 	width: 100%;
 	min-height: 100vh;
-	z-index: 999;
 }
 
 #main .container header {
@@ -18,6 +17,7 @@
 	background: red;
 	width: 100%;
 	height: 130px;
+	z-index: 999;
 }
 	#main .container header .logo {
 		display: none;
@@ -26,7 +26,19 @@
 		display: none;
 	}
 	#main .container header .navigation.active {
-		
+		display: flex;
+		position: fixed;
+		width: 100%;
+		height: calc(100vh - 130px);
+		top: 130px;
+		left: 0px;
+		background: green;
+		z-index: 999;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: 4.5em;
+		list-style-type: none;
 	}
 
 #main .container main {
