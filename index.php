@@ -17,7 +17,7 @@
 					<link rel="stylesheet" type="text/css" href="styles/mobile/tasks.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/requirements.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/schedule.css">
-					<link rel="stylesheet" type="text/css" href="styles/mobile/ooter.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/footer.css">
 				<?
 			}
 			else {

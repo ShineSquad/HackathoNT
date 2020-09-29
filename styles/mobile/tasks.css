@@ -9,10 +9,10 @@
 }
 
 #tasks .container {
-	/*min-width: 1200px;*/
-	width: 300px;
+	width: 84%;
 	height: auto;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	flex-direction: column;
 }
@@ -28,80 +28,51 @@
 }
 
 #tasks .container .tasks_list {
-	width: 90%;
+	width: 100%;
 	height: auto;
-	margin-left: 5%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	position: relative;
 }
-	#tasks .container .tasks_list:before {
-		content: '';
-		position: absolute;
-		top: calc(50% - 15px);
-		left: -25px;
-		width: 20px;
-		height: 30px;
-		background: url(../images/arrow_left.svg);
-		background-repeat: no-repeat;
-		cursor: pointer;
-	}
-	#tasks .container .tasks_list:after {
-		content: '';
-		position: absolute;
-		top: calc(50% - 15px);
-		right: -25px;
-		width: 20px;
-		height: 30px;
-		background: url(../images/arrow_right.svg);
-		background-repeat: no-repeat;
-		cursor: pointer;
-	}
 
 #tasks .container .tasks_list .tasks_list_item {
-	height: 510px;
-	width: 324px;
-	margin: 20px;
+	height: auto;
+	width: 100%;
 	background: #FFFFFF;
 	box-shadow: 2px 2px 9px rgba(50, 57, 87, 0.1);
 	border-radius: 7px;
 	display: flex;
 	align-items: center;
 	align-items: flex-start;
+	margin-bottom: 50px;
+	padding: 50px 70px;
+	box-sizing: border-box;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_logo {
 	margin-bottom: 36px;
-	margin-left: 35px;
-	margin-top: 50px;
-	height: 40px;
+	height: 130px;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_type {
 	font-family: MontserratBold;
-	font-size: 17px;
-	line-height: 21px;
+	font-size: 3em;
+	line-height: 1em;
 	color: #91A0B1;
-	margin-top: 20px;
-	margin-left: 35px;
-	margin-right: 30px;
+	margin-bottom: 20px;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_title {
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 2em;
+	line-height: 1em;
 	font-family: MontserratBold;
 	color: #1E1266;
-	margin-top: 20px;
-	margin-left: 35px;
-	margin-right: 30px;
+	margin-bottom: 20px;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_descriptions {
-	font-size: 15px;
-	line-height: 18px;
+	font-size: 2em;
+	line-height: 1em;
 	color: #69727C;
-	margin-left: 35px;
-	margin-right: 30px;
-	margin-top: 20px;
 }

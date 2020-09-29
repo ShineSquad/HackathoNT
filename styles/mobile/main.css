@@ -9,8 +9,6 @@
 #main .container {
 	width: 100%;
 	min-height: 100vh;
-	/*min-width: 1200px;*/
-	/*height: 100%;*/
 }
 
 #main .container header {
@@ -101,7 +99,7 @@
 
 #main .container main .main_content .main_content_button {
 	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
-	border-radius: 5px;
+	border-radius: 15px;
 	font-size: 4em;
 	padding: 20px 30px;
 	color: #182B60;

@@ -7,29 +7,38 @@
 }
 
 #waiting .container {
-	/*min-width: 1200px;*/
+	width: 84%;
 	height: auto;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 }
 
 #waiting .container .waiting_left {
-	width: 50%;
+	width: 100%;
 	height: auto;
 	display: flex;
+	flex-direction: row;	
 	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+#waiting .container .waiting_left img {
+	width: 80%;
 }
 
 #waiting .container .waiting_right {
-	width: 35%;
+	width: 100%;
 	height: auto;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
 
 #waiting .container .waiting_right .fix .waiting_right_title {
-	font-size: 48px;
-	line-height: 59px;
+	font-size: 4em;
+	line-height: 1em;
 	color: #1E1266;
 	font-family: MontserratBold;
 	margin-bottom: 50px;
@@ -41,8 +50,8 @@
 
 #waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item {
 	color: #1A76B5;
-	font-size: 24px;
-	line-height: 27px;
+	font-size: 3em;
+	line-height: 1em;
 	font-family: MontserratBold;
 	margin-top: 40px;
 	position: relative;
@@ -51,11 +60,13 @@
 	#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item:before {
 		position: absolute;
 		content: '';
-		left: -25px;
-		top: 10px;
-		background: url(../images/ellipse_list2.svg);
-		width: 10px;
-		height: 10px;
+		left: -30px;
+		top: 15px;
+		background: url(../../images/ellipse_list2.svg);
+		width: 20px;
+		height: 20px;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item:first-child {
 		margin-top: 0;
@@ -63,7 +74,7 @@
 
 #waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item p {
 	font-family: Montserrat;
-	font-size: 16px;
-	line-height: 30px;
+	font-size: .8em;
+	line-height: 1em;
 	margin-top: 5px;
 }
