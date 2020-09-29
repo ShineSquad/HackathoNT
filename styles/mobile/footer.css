@@ -119,8 +119,6 @@
 }
 
 #footer .container .cards {
-	/*margin-top: 75px;
-	margin-bottom: 141px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
