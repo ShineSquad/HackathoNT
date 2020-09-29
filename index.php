@@ -5,11 +5,11 @@
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="images/logo.ico" type="image/png">
 
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<?php
 			require_once "php/check_mobile.php";
 			if ( check_mobile() ) {
 				?>
+					<link rel="stylesheet" type="text/css" href="styles/mobile/styles.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/main.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/waiting.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/prize_fund.css">
@@ -22,6 +22,7 @@
 			}
 			else {
 				?>
+					<link rel="stylesheet" type="text/css" href="styles/styles.css">
 					<link rel="stylesheet" type="text/css" href="styles/main.css">
 					<link rel="stylesheet" type="text/css" href="styles/waiting.css">
 					<link rel="stylesheet" type="text/css" href="styles/prize_fund.css">
