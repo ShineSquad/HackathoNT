@@ -7,7 +7,7 @@
 }
 
 #main .container {
-	min-width: 1300px;
+	min-width: 1200px;
 	height: 100%;
 }
 
@@ -135,7 +135,12 @@
 	}
 
 #main .container main .main_house {
-	bottom: 200px;
+	bottom: calc(50% - 250px);
 	right: -100px;
 	position: absolute;
+	height: 500px;
+}
+
+#main .container main .main_house img {
+	height: 100%;
 }

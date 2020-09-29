@@ -6,7 +6,7 @@
 }
 
 #waiting .container {
-	min-width: 1300px;
+	min-width: 1200px;
 	height: auto;
 	display: flex;
 }
@@ -62,5 +62,6 @@
 #waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item p {
 	font-family: Montserrat;
 	font-size: 16px;
-	line-height: 40px;
+	line-height: 30px;
+	margin-top: 5px;
 }

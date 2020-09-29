@@ -8,7 +8,7 @@
 }
 
 #footer .container {
-	min-width: 1300px;
+	min-width: 1200px;
 	height: auto;
 }
 
@@ -124,6 +124,24 @@
 #footer .container .cards .card {
 	width: 215px;
 	height: 300px;
+	padding: 30px;
+	position: relative;
+}
+
+#footer .container .cards .card:hover {
+	background-color: #F1F1F1;
+}
+
+#footer .container .cards .card:hover a {
+	display: block;
+}
+
+#footer .container .cards .card a {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	display: none;
+	color: black;
 }
 
 #footer .container .cards .card .avatar {
@@ -132,6 +150,12 @@
 	border-radius: 80px;
 	background-color: #E3E6EB;
 	margin-bottom: 20px;
+}
+
+#footer .container .cards .card .avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 80px;
 }
 
 #footer .container .cards .card .fi {
@@ -166,7 +190,7 @@
 }
 
 #main_footer .container {
-	min-width: 1300px;
+	min-width: 1200px;
 	height: auto;
 	display: flex;
 	justify-content: space-between;
