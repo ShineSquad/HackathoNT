@@ -15,7 +15,7 @@
 
 #footer .container .footer_irid {
 	width: 100%;
-	margin-bottom: 80px;
+	margin-bottom: 240px;
 }
 
 #footer .container .footer_irid .footer_title {
@@ -103,8 +103,7 @@
 }
 
 #footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_desc_description .two {
-	font-weight: bold;
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 1.1em;
 	color: #323E5F;
 	font-family: MontserratBold;

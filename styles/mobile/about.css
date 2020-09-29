@@ -31,17 +31,18 @@
 
 #about .container .about_left .about_left_list_questions .list_questions_item {
 	color: #01FBFD;
-	font-size: 4em;
+	font-size: 3em;
 	line-height: 1em;
 	font-weight: 600;
 	position: relative;
 	margin-bottom: 30px;
+	padding-left: 50px;
 }
 	#about .container .about_left .about_left_list_questions .list_questions_item:before {
 		position: absolute;
 		content: '';
-		left: -40px;
-		top: 20px;
+		left: 0px;
+		top: 10px;
 		background: url(../../images/ellipse_list.svg);
 		width: 30px;
 		height: 30px;
@@ -53,7 +54,7 @@
 	font-size: 5em;
 	line-height: 1em;
 	color: #01FBFD;
-	margin-top: 55px;
+	margin-top: 75px;
 	font-family: MontserratBold;
 }
 
@@ -67,7 +68,7 @@
 	font-weight: 600;
 	cursor: pointer;
 	user-select: none;
-	margin-top: 55px;
+	margin-top: 95px;
 	padding: 30px 0px;
 }
 	#about .container .about_left .about_left_button:hover {
@@ -79,7 +80,7 @@
 	font-size: 3em;
 	line-height: 1em;
 	color: white;
-	margin-bottom: 21px;
+	margin-bottom: 60px;
 	font-weight: bold;
 }
 
@@ -161,6 +162,7 @@
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-bottom: 51px;
+	margin-top: 80px;
 }
 
 #about .container .about_right .about_right_description {
