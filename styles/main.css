@@ -36,7 +36,7 @@
 	cursor: pointer;
 	user-select: none;
 }
-	#main .container header .navigation .nav_item:hover {
+	#main .container header .navigation .nav_item:hover a{
 		color: #01FBFD;
 	}
 

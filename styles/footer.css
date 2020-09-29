@@ -216,7 +216,7 @@
 	line-height: 17px;
 	cursor: pointer;
 }
-	#main_footer .container .menu li:hover {
+	#main_footer .container .menu li:hover a{
 		color: #01FBFD;
 	}
 
