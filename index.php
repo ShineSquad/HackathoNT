@@ -6,6 +6,7 @@
 		<link rel="shortcut icon" href="images/logo.ico" type="image/png">
 
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<script type="text/javascript" src="scripts/main.js"></script>
 		<?php
 			require_once "php/check_mobile.php";
 			if ( check_mobile() ) {
@@ -24,6 +25,8 @@
 			}
 			else {
 				?>
+					<script type="text/javascript" src="scripts/script.js"></script>
+
 					<link rel="stylesheet" type="text/css" href="styles/main.css">
 					<link rel="stylesheet" type="text/css" href="styles/waiting.css">
 					<link rel="stylesheet" type="text/css" href="styles/prize_fund.css">
@@ -35,9 +38,6 @@
 				<?
 			}
 		?>
-
-		<script type="text/javascript" src="scripts/script.js"></script>
-
 	</head>
 	<body>
 		<div id="main">
