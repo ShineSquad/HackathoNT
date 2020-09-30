@@ -42,11 +42,12 @@
 	color: white;
 	position: relative;
 	margin-bottom: 65px;
+	padding-left: 50px;
 }
 	.requirements_list_item:before {
 		position: absolute;
 		content: '';
-		left: -45px;
+		left: 0px;
 		top: 10px;
 		background: url(../../images/ellipse_list.svg);
 		width: 30px;

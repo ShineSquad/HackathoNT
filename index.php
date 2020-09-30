@@ -74,7 +74,7 @@
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
-						<div class="mobile_content_button">Принять участие</div>
+						<div class="mobile_content_button" onclick="openForm()">Принять участие</div>
 						<p class="text">Курирует хакатон <br>команда <b>Shine Squad</b>. <br>Вопросы пишите нам на почту:</p>
 						<p class="mail"><a href="mailto:shinesquad.tech@gmail.com">shinesquad.tech@gmail.com</a></p>
 						<div class="social">

@@ -56,6 +56,7 @@
 	margin-top: 40px;
 	position: relative;
 	margin-left: 30px;
+	padding-left: 20px;
 }
 	#waiting .container .waiting_right .fix .waiting_right_list_role .list_role_item:before {
 		position: absolute;
