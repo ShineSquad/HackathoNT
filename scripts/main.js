@@ -34,6 +34,12 @@ window.onload = () => {
 	displayTimer(nodes, updateTimer());
 
 	setInterval(() => displayTimer(nodes, updateTimer()) , 1000)
+
+	setTimeout(() => {
+		document.body.classList.toggle("onload");
+		document.body.removeChild(
+			document.getElementById("loader"));
+	}, 1000)
 }
 
 function openForm() {

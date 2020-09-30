@@ -35,3 +35,27 @@ a {
 	cursor: pointer;
 	display: none;
 }
+
+#loader {
+	opacity: 0;
+	transition: opacity .5;
+	position: fixed;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	background: white;
+	z-index: 9999;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#loader img {
+	height: 60vh;
+}
+body.onload {
+	overflow: hidden;
+}
+
+#loader.active {
+	opacity: 1;
+}
