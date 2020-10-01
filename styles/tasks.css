@@ -34,7 +34,7 @@
 	justify-content: center;
 	position: relative;
 }
-	#tasks .container .tasks_list:before {
+/*	#tasks .container .tasks_list:before {
 		content: '';
 		position: absolute;
 		top: calc(50% - 15px);
@@ -55,7 +55,7 @@
 		background: url(../images/arrow_right.svg);
 		background-repeat: no-repeat;
 		cursor: pointer;
-	}
+	}*/
 
 #tasks .container .tasks_list .tasks_list_item {
 	height: 510px;
