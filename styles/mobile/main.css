@@ -99,7 +99,7 @@
 		margin-bottom: 40px;
 	}
 		#main .container header .navigation.active ~ .mobile_content .mobile_content_button:hover {
-			background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
+			background: #FF4266;
 		}
 	#main .container header .navigation.active ~ .mobile_content .text {
 		text-align: center;
@@ -216,7 +216,7 @@
 	width: 40%;
 }
 	#main .container main .main_content .main_content_button:hover {
-		background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
+		background: #FF4266;
 	}
 
 #main .container main .main_house {
