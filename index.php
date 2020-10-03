@@ -3,7 +3,7 @@
 	<head>
 		<title>HackathoNT</title>
 		<meta charset="utf-8">
-		<link rel="shortcut icon" href="images/logo.ico" type="image/png">
+		<link rel="shortcut icon" href="images/logo.svg" type="image/png">
 
 		<script type="text/javascript" src="scripts/main.js"></script>
 		<?php
@@ -48,7 +48,8 @@
 			<div class="container">
 				<header>
 					<div class="logo">
-						<img src="images/white_irid_logo.svg">
+						<img src="images/white_hackathont_logo.svg">
+						<p>HackathoNT 1.0</p>
 					</div>
 					<ul class="navigation">
 						<li class="nav_item"><a href="#prize_fund">Призы</a></li>
@@ -60,7 +61,8 @@
 					</ul>
 					<div class="mobile_block">
 						<div class="mobile_logo">
-							<img src="images/white_irid_logo.svg">
+							<img src="images/white_hackathont_logo.svg">
+							<p>HackathoNT 1.0</p>
 						</div>
 						<div class="mobile_burger">
 							<img id="open_burger" src="images/open_burger.svg">
