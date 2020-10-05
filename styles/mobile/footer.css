@@ -18,6 +18,19 @@
 	margin-bottom: 240px;
 }
 
+#footer .container .footer_irid .footer_logo_container {
+	height: auto;
+	display: flex;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#footer .container .footer_irid .footer_logo_container img {
+	margin-top: 40px;
+}
+
 #footer .container .footer_irid .footer_title {
 	font-size: 4em;
 	line-height: 1em;

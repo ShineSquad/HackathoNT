@@ -68,7 +68,16 @@
 	user-select: none;
 	margin-top: 55px;
 	padding: 30px 0px;
+	margin-bottom: 100px;
 }
 	#requirements .container .requirements_button:hover {
 		background: #FF4266;
 	}
+
+#requirements .container .link_requirements {
+	color: white;
+	font-size: 2.5em;
+	text-decoration-line: underline;
+	font-family: MontserratBold;
+	cursor: pointer;
+}

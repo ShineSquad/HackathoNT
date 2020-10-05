@@ -55,7 +55,7 @@
 						<li class="nav_item"><a href="#prize_fund">Призы</a></li>
 						<li class="nav_item"><a href="#about">О хакатоне</a></li>
 						<li class="nav_item"><a href="#waiting">Кого мы ждем</a></li>
-						<li class="nav_item"><a href="#tasks">Задачи</a></li>
+						<li class="nav_item"><a href="#tasks">Задача</a></li>
 						<li class="nav_item"><a href="#requirements">Правила</a></li>
 						<li class="nav_item"><a href="#footer">Организаторы</a></li>
 					</ul>
@@ -75,7 +75,7 @@
 							<li class="nav_item"><a href="#prize_fund">Призы</a></li>
 							<li class="nav_item"><a href="#about">О хакатоне</a></li>
 							<li class="nav_item"><a href="#waiting">Кого мы ждем</a></li>
-							<li class="nav_item"><a href="#tasks">Задачи</a></li>
+							<li class="nav_item"><a href="#tasks">Задача</a></li>
 							<li class="nav_item"><a href="#requirements">Правила</a></li>
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
 						</ul>
@@ -94,14 +94,14 @@
 				<main>
 					<div class="main_content">
 						<div class="main_content_date">16-18 октября 2020</div>
-						<div class="main_content_title">HackathoNT<br> Умный дом</div>
+						<div class="main_content_title">HackathoNT<br> Большие данные</div>
 						<div class="main_content_about">
-							<b style="font-family: MontserratBold">HackathoNT «Умный дом»</b> - это оффлайн хакатон <br>новых технологий в сфере Smart House<br> для опытных и начинающих разработчиков<br> в Нижнем Тагиле, площадка пр. Мира 2А
+							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> - это оффлайн <br>хакатон новых решений в сфере Big Data для <br>опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка пр. Мира 2А
 						</div>
 						<div class="main_content_button" onclick="openForm()">Принять участие</div>
 					</div>
 					<div class="main_house">
-						<img src="images/house.svg">
+						<img src="images/bigData.svg">
 					</div>
 				</main>
 			</div>
@@ -154,11 +154,11 @@
 				<div class="about_right">
 					<p class="about_right_title">О хакатоне</p>
 					<p class="about_right_description">
-						Главная цель – улучшение окружения и качества жизни <br>людей, поэтому компания Иридиум активно внедряет <br>технологии «Умный дом» в Нижнем Тагиле и других городах <br>России. <br><br>
-						16-18 октября 2020 состоится уникальное событие – <br>«HackathoNT - Умный дом», который поможет реализовать <br>новые идеи и помочь развитию десяткам проектов. <br><br>
-						Во время хакатона команды IT-специалистов и начинающих <br>разработчиков займутся проектированием цифровых <br>сервисов, которые будут отвечать на существующие запросы <br>в рамках темы Smart House. <br><br>
+						Главная цель – создание прикладных бизнес-решений и <br> системного подхода в сфере Big Data. <br><br>
+						16-18 октября 2020 состоится уникальное событие – <br>«HackathoNT - Большие данные», который поможет <br>реализовать новые идеи по технологиям поиска, <br>обработки и систематизации большого количества <br>информации. <br><br>
+						Во время хакатона команды IT-специалистов и <br>начинающих разработчиков займутся созданием <br>бизнес-идей по задачам, предложенным <br>компанией «Мотив». <br><br>
 						Мы приглашаем участников реализовать свои идеи вместе с <br>опытными наставниками и побороться за денежный приз. <br><br>
-						Хакатон «Умный дом» не просто конкурс - с утра до 00 ночи <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
+						Хакатон «Большие данные» не просто конкурс - с утра до 00 ночи <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
 						Собирай свою команду 2-4 человек. Это будут <br>незабываемые и плодотворные выходные. <br>Присоединяйся!
 					</p>
 				</div>
@@ -167,7 +167,7 @@
 		<div id="waiting">
 			<div class="container">
 				<div class="waiting_left">
-					<img src="images/man.png">
+					<img src="images/waiting_bigData.svg">
 				</div>
 				<div class="waiting_right">
 					<div class="fix">
@@ -203,18 +203,28 @@
 		<div id="tasks">
 			<div class="container">
 				<div class="tasks_title">
-					Задачи
+					Задача
 				</div>
 				<div class="tasks_list">
+
 					<div class="tasks_list_item">
 						<div>
-							<img class="tasks_list_item_logo" src="images/blue_irid_logo.svg">
-							<p class="tasks_list_item_type">Климатконтроль</p>
-							<p class="tasks_list_item_title">Система автоматизированного управления климатом в помещении </p>
-							<p class="tasks_list_item_descriptions">Текст описание задачи. Управление с помощью IR команд. В данном случае команды от системы автоматизации идут не по проводам, напрямую в контроллер системы кондиционирования, а от ИК излучателя Умного дома в ИК приемник кондиционера.</p>
+							<div class="tasks_list_item_top">
+								<p class="tasks_list_item_type">Big Data</p>
+								<img class="tasks_list_item_logo" src="images/logo/motiv.svg">
+							</div>
+							<p class="tasks_list_item_title">Система оптимизированного внедрения <br>новых сотрудников в компанию </p>
+							<p class="tasks_list_item_descriptions">Создание модели помощника для стажировки новых сотрудников. Моделирование системы управления данными (документация, инструкции и т.д.). Это могут быть: чат-бот, голосовой помощник и другое. Приветствуются новые идеи, прототипы и инновационные решения на усмотрение участников.</p>
+							<p class="tasks_list_item_goals">Цели:</p>
+							<ul class="tasks_list_item_goals_list">
+								<li>Автоматизация внедрения новых сотрудников</li>
+								<li>Сокращение текучки кадров</li>
+								<li>Сокращение расходов на обучение</li>
+							</ul>
 						</div>
 					</div>
-					<div class="tasks_list_item">
+
+<!-- 					<div class="tasks_list_item">
 						<div>
 							<img class="tasks_list_item_logo" src="images/blue_irid_logo.svg">
 							<p class="tasks_list_item_type">Безопасность</p>
@@ -229,7 +239,7 @@
 							<p class="tasks_list_item_title">Создание сценариев управления устройствами Умного дома</p>
 							<p class="tasks_list_item_descriptions">Текст описание задачи. Управление с помощью IR команд. В данном случае команды от системы автоматизации идут не по проводам, напрямую в контроллер системы кондиционирования, а от ИК излучателя Умного дома в ИК приемник кондиционера.</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -242,7 +252,7 @@
 							Каждый Участник может входить в состав только <br>одной Команды и не может выступать <br>индивидуально
 						</div>
 						<div class="requirements_list_item">
-							Команда может состоять из 2-5 человек
+							Команда может состоять из 2-4 человек
 						</div>
 					</div>
 					<div class="requirements_list_right">
@@ -255,6 +265,7 @@
 					</div>
 				</div>
 				<div class="requirements_button" onclick="openForm()">Принять участие</div>
+				<a href="#" class="link_requirements">Регламент</a>
 			</div>
 		</div>
 		<div id="schedule">
@@ -266,7 +277,7 @@
 					<img src="images/day3.svg">
 				</div>
 				<p class="schedule_description">
-					* Внутреннее расписание мероприятия может слегка меняться. <br>
+					* Внутреннее расписание мероприятия может слегка меняться. <br><br>
 					** Время отведенное на работу каждый участник организует самостоятельно (определяет перерывы и время на развлечения)
 				</p>
 			</div>
@@ -274,12 +285,13 @@
 		<div id="footer">
 			<div class="container">
 				<div class="footer_irid">
-					<div class="footer_title">Учредитель мероприятия:</div>
-					<img class="footer_irid_logo" src="images/blue_irid_logo.svg">
-					<p class="footer_irid_company">ООО «Иридиум»</p>
-					<p class="footer_irid_address">Нижний Тагил, пр.Мира, 56 Б</p>
-					<p class="footer_irid_phone">+7 (343) 271-47-13</p>
-					<a href="https://iridi.com/" class="footer_irid_link">iridi.com</a>
+					<div class="footer_title">Партнеры:</div>
+					<div class="footer_logo_container">
+						<img src="images/logo/ntgspi.svg">
+						<img src="images/logo/motiv.svg">
+						<img src="images/logo/my_buss.svg">
+						<img src="images/logo/pravitelstvo.svg">
+					</div>
 				</div>
 				<div class="footer_shinesquad">
 					<p class="footer_shinesquad_prev">Разработчики и <br>организаторы HackathoNT:</p>
@@ -348,12 +360,12 @@
 		</div>
 		<div id="main_footer">
 			<div class="container">
-				<div class="madeby">© HackathoNT Smart House 2020</div>
+				<div class="madeby">© HackathoNT 1.0 Big Data 2020</div>
 				<ul class="menu">
 					<li class="nav_item"><a href="#prize_fund">Призы</a></li>
 					<li class="nav_item"><a href="#about">О хакатоне</a></li>
 					<li class="nav_item"><a href="#waiting">Кого мы ждем</a></li>
-					<li class="nav_item"><a href="#tasks">Задачи</a></li>
+					<li class="nav_item"><a href="#tasks">Задача</a></li>
 					<li class="nav_item"><a href="#requirements">Правила</a></li>
 					<li class="nav_item"><a href="#footer">Организаторы</a></li>
 				</ul>

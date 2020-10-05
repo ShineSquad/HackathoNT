@@ -214,6 +214,10 @@
 	margin-bottom: 80px;
 }
 
+#main .container main .main_content .main_content_about br {
+	display: none !important;
+}
+
 #main .container main .main_content .main_content_button {
 	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
 	border-radius: 15px;
@@ -238,4 +242,5 @@
 
 #main .container main .main_house img {
 	width: 100%;
+	margin-top: 100px;
 }

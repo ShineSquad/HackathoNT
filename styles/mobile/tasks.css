@@ -50,9 +50,17 @@
 	box-sizing: border-box;
 }
 
+#tasks .container .tasks_list .tasks_list_item .tasks_list_item_top {
+	flex-flow: wrap;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_logo {
 	margin-bottom: 36px;
-	height: 130px;
+	height: 100px;
+	order: 0;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_type {
@@ -60,7 +68,8 @@
 	font-size: 3em;
 	line-height: 1em;
 	color: #91A0B1;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	order: 1;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_title {
@@ -68,11 +77,47 @@
 	line-height: 1em;
 	font-family: MontserratBold;
 	color: #1E1266;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_descriptions {
 	font-size: 2em;
 	line-height: 1em;
 	color: #69727C;
+}
+
+#tasks .container .tasks_list .tasks_list_item .tasks_list_item_goals {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #69727C;
+	font-size: 2em;
+	line-height: 1em;
+	font-family: MontserratBold;
+}
+
+#tasks .container .tasks_list .tasks_list_item .tasks_list_item_goals_list {
+	list-style-type: none;
+}
+
+#tasks .container .tasks_list .tasks_list_item .tasks_list_item_goals_list li {
+	margin-top: 27px;
+	margin-bottom: 27px;
+	margin-left: 40px;
+	color: #69727C;
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: 500;
+	position: relative;
+}
+
+#tasks .container .tasks_list .tasks_list_item .tasks_list_item_goals_list li:before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: -40px;
+	width: 20px;
+	height: 20px;
+	background: url(../../images/dark_blue_ellipse.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
