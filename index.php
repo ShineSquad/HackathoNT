@@ -158,7 +158,7 @@
 						16-18 октября 2020 состоится уникальное событие – <br>«HackathoNT - Большие данные», который поможет <br>реализовать новые идеи по технологиям поиска, <br>обработки и систематизации большого количества <br>информации. <br><br>
 						Во время хакатона команды IT-специалистов и <br>начинающих разработчиков займутся созданием <br>бизнес-идей по задачам, предложенным <br>компанией «Мотив». <br><br>
 						Мы приглашаем участников реализовать свои идеи вместе с <br>опытными наставниками и побороться за денежный приз. <br><br>
-						Хакатон «Большие данные» не просто конкурс - с утра до 00 ночи <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
+						Хакатон «Большие данные» не просто конкурс - с утра до ночи, <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
 						Собирай свою команду 2-4 человек. Это будут <br>незабываемые и плодотворные выходные. <br>Присоединяйся!
 					</p>
 				</div>
@@ -210,7 +210,7 @@
 						<div>
 							<div class="tasks_list_item_top">
 								<p class="tasks_list_item_type">Big Data</p>
-								<img class="tasks_list_item_logo" src="images/logo/motiv.svg">
+								<img class="tasks_list_item_logo" src="images/logo/motiv.png">
 							</div>
 							<p class="tasks_list_item_title">Система оптимизированного внедрения <br>новых сотрудников в компанию </p>
 							<p class="tasks_list_item_descriptions">Создание модели помощника для стажировки новых сотрудников. Моделирование системы управления данными (документация, инструкции и т.д.). Это могут быть: чат-бот, голосовой помощник и другое. Приветствуются новые идеи, прототипы и инновационные решения на усмотрение участников.</p>
@@ -264,7 +264,7 @@
 					</div>
 				</div>
 				<div class="requirements_button" onclick="openForm()">Принять участие</div>
-				<a href="#" class="link_requirements">Регламент</a>
+				<a href="https://drive.google.com/file/d/10XRh2i5BeVaXxgaDBNELAyi7ar8-DoNF/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
 			</div>
 		</div>
 		<div id="schedule">
@@ -286,9 +286,9 @@
 				<div class="footer_irid">
 					<div class="footer_title">Партнеры:</div>
 					<div class="footer_logo_container">
-						<a href="https://www.ntspi.ru/"><img src="images/logo/ntgspi.svg"></a>
-						<a href="https://motivtelecom.ru/"><img src="images/logo/motiv.svg"></a>
-						<a href="https://nt.sofp.ru/"><img src="images/logo/fond.png"></a>
+						<a href="https://www.ntspi.ru/" target="_blank"><img src="images/logo/ntgspi.svg"></a>
+						<a href="https://motivtelecom.ru/" target="_blank"><img src="images/logo/motiv.png"></a>
+						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/fond.png"></a>
 					</div>
 				</div>
 				<div class="footer_shinesquad">
@@ -302,8 +302,8 @@
 							<a href="mailto:shinesquad.tech@gmail.com"><p class="two">shinesquad.tech@gmail.com</p></a>
 							<div class="three">
 								Или в соц. сети 
-								<a href="https://vk.com/hackatont"><img class="icons" src="./images/vk.svg"></a>
-								<a href="https://www.instagram.com/hackatho.nt/?r=nametag"><img class="icons" src="./images/instagram.svg"></a>
+								<a href="https://vk.com/hackatont" target="_blank"><img class="icons" src="./images/vk.svg"></a>
+								<a href="https://www.instagram.com/hackatho.nt/?r=nametag" target="_blank"><img class="icons" src="./images/instagram.svg"></a>
 							</div>
 						</div>
 					</div>
@@ -317,7 +317,7 @@
 							<p class="fi">Киселев Никита</p>
 							<p class="card_desc">Преподаватель кафедры ИТ НТГСПИ, Финалист многочисленных хакатонов</p>
 							<p class="skills"><b>Skills:</b> Back-end, Arduino</p>
-							<a href="https://vk.com/rick_sun">Подробнее</a>
+							<a href="https://vk.com/rick_sun" target="_blank">Подробнее</a>
 						</div>
 					</div>
 					<div class="card">
@@ -328,7 +328,7 @@
 							<p class="fi">Турищев Инвер</p>
 							<p class="card_desc">Победитель нескольких ИТ-конкурсов по России, успешный спикер</p>
 							<p class="skills"><b>Skills:</b> Project, Speech, Arduino</p>
-							<a href="https://vk.com/pussycat_in_boots">Подробнее</a>
+							<a href="https://vk.com/pussycat_in_boots" target="_blank">Подробнее</a>
 						</div>
 					</div>
 					<div class="card">
@@ -339,7 +339,7 @@
 							<p class="fi">Бояршинова Арина</p>
 							<p class="card_desc">Участник и финалист хакатонов. Проектировщик и дизайнер веб-сервисов</p>
 							<p class="skills"><b>Skills:</b> UX design, Events</p>
-							<a href="https://vk.com/arina_boyarshinova">Подробнее</a>
+							<a href="https://vk.com/arina_boyarshinova" target="_blank">Подробнее</a>
 						</div>
 					</div>
 					<div class="card">
@@ -350,7 +350,7 @@
 							<p class="fi">Бурасов Артём</p>
 							<p class="card_desc">Участник и финалист хакатонов, координатор ИТ-мероприятий</p>
 							<p class="skills"><b>Skills:</b> Front-end, Arduino</p>
-							<a href="https://vk.com/id471609274">Подробнее</a>
+							<a href="https://vk.com/id471609274" target="_blank">Подробнее</a>
 						</div>
 					</div>
 				</div>
