@@ -80,7 +80,9 @@
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
-						<div class="mobile_content_button" onclick="openForm()">Принять участие</div>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform">
+							<div class="mobile_content_button">Принять участие</div>
+						</a>
 						<p class="text">Курирует хакатон <br>команда <b>Shine Squad</b>. <br>Вопросы пишите нам на почту:</p>
 						<p class="mail"><a href="mailto:shinesquad.tech@gmail.com">shinesquad.tech@gmail.com</a></p>
 						<div class="social">
@@ -98,7 +100,9 @@
 						<div class="main_content_about">
 							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> - это оффлайн <br>хакатон новых решений в сфере Big Data для <br>опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка пр. Мира 2А
 						</div>
-						<div class="main_content_button" onclick="openForm()">Принять участие</div>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
+							<div class="main_content_button">Принять участие</div>
+						</a>
 					</div>
 					<div class="main_house">
 						<img src="images/bigData.svg">
@@ -122,7 +126,9 @@
 						<li class="list_questions_item">Желаешь попробовать силы и заявить <br>о себе в мире IT?</li><br>
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
-					<div class="about_left_button" onclick="openForm()">Зарегистрироваться</div>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
+						<div class="about_left_button">Зарегистрироваться</div>
+					</a>
 					<p class="about_left_left">Заявки на участие принимаются до 14 октября <br>Осталось:</p>
 					<div id="timer">
 						<div class="timer_item">
@@ -263,8 +269,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="requirements_button" onclick="openForm()">Принять участие</div>
-				<a href="https://drive.google.com/file/d/10XRh2i5BeVaXxgaDBNELAyi7ar8-DoNF/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
+					<div class="requirements_button">Принять участие</div>
+				</a>
+				<a href="https://drive.google.com/file/d/1hkaN9pau55KZub4W3IHoE03IXPnJ4hnB/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
 			</div>
 		</div>
 		<div id="schedule">
@@ -367,7 +375,9 @@
 					<li class="nav_item"><a href="#requirements">Правила</a></li>
 					<li class="nav_item"><a href="#footer">Организаторы</a></li>
 				</ul>
-				<div class="footer_button" onclick="openForm()">Зарегистрироваться</div>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
+					<div class="footer_button">Зарегистрироваться</div>
+				</a>
 			</div>
 		</div>
 		<a id="scroll_top" draggable="false" href="#main"></a>

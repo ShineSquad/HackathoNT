@@ -87,8 +87,8 @@
 	}
 	#main .container header .navigation.active ~ .mobile_content .mobile_content_button {
 		background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
-		border-radius: 5px;
-		width: 50%;
+		border-radius: 15px;
+		padding: 0 20px;
 		height: 100px;
 		font-size: .5em;
 		font-weight: 600;
