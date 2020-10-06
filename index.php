@@ -183,8 +183,7 @@
 							<li class="list_role_item">
 								Дизайнеров
 								<p>
-									Дизайнеров Web, mobil, Ui, UX, <br>
-									а также графические и пром. дизайнеры
+									Дизайнеров Web, mobil, Ui, UX
 								</p>
 							</li>
 							<li class="list_role_item">

@@ -111,7 +111,7 @@
 	font-size: 3em;
 	line-height: 1em;
 	color: #323E5F;
-	margin-bottom: 12px;
+	margin-bottom: 22px;
 	margin-top: 25px;
 }
 
@@ -120,7 +120,7 @@
 	line-height: 1.1em;
 	color: #323E5F;
 	font-family: MontserratBold;
-	margin-bottom: 12px;
+	margin-bottom: 22px;
 }
 
 #footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_desc_description .three {
@@ -128,6 +128,7 @@
 	font-size: 2em;
 	line-height: 1em;
 	color: #323E5F;
+	margin-bottom: 22px;
 }
 #footer .container .footer_shinesquad .footer_shinesquad_desc .footer_shinesquad_desc_description .three img {
 	width: 80px;

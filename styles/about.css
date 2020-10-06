@@ -143,6 +143,7 @@
 #about .container .about_right {
 	height: auto;
 	width: 50%;
+	padding-left: 30px;
 }
 
 #about .container .about_right .about_right_title {

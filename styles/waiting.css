@@ -20,6 +20,10 @@
 	align-items: center;
 }
 
+#waiting .container .waiting_left img {
+	height: 500px;
+}
+
 #waiting .container .waiting_right {
 	width: 35%;
 	height: auto;
