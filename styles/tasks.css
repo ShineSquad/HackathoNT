@@ -154,7 +154,16 @@
 	color: #69727C;
 	margin-left: 35px;
 	margin-right: 60px;
-	margin-top: 30px;
+	margin-top: 20px;
+}
+
+#tasks .container .tasks_list .tasks_list_item .tasks_list_item_title_desc {
+	margin-top: 37px;
+	font-size: 18px;
+	line-height: 23px;
+	color: #69727C;
+	font-family: MontserratBold;
+	margin-left: 35px;
 }
 
 #tasks .container .tasks_list .tasks_list_item .tasks_list_item_goals {

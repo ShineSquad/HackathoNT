@@ -41,7 +41,3 @@ window.onload = () => {
 			document.getElementById("loader"));
 	}, 1000)
 }
-
-function openForm() {
-	location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform";
-}
