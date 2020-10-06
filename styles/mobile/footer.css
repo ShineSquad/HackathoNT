@@ -25,6 +25,7 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 #footer .container .footer_irid .footer_logo_container img {
