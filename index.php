@@ -177,7 +177,7 @@
 								Программистов
 								<p>
 									Разработчики веб и мобильных интерфейсов. <br>
-									Full-stack, frontend, backend, CV, NLP.
+									Full-stack, frontend, backend, NLP, Big Data, ML.
 								</p>
 							</li>
 							<li class="list_role_item">
@@ -286,10 +286,9 @@
 				<div class="footer_irid">
 					<div class="footer_title">Партнеры:</div>
 					<div class="footer_logo_container">
-						<img src="images/logo/ntgspi.svg">
-						<img src="images/logo/motiv.svg">
-						<img src="images/logo/my_buss.svg">
-						<img src="images/logo/pravitelstvo.svg">
+						<a href="https://www.ntspi.ru/"><img src="images/logo/ntgspi.svg"></a>
+						<a href="https://motivtelecom.ru/"><img src="images/logo/motiv.svg"></a>
+						<a href="https://nt.sofp.ru/"><img src="images/logo/fond.png"></a>
 					</div>
 				</div>
 				<div class="footer_shinesquad">
@@ -328,7 +327,7 @@
 						<div class="shine_sq_user_description">
 							<p class="fi">Турищев Инвер</p>
 							<p class="card_desc">Победитель нескольких ИТ-конкурсов по России, успешный спикер</p>
-							<p class="skills"><b>Skills:</b> Projekt, Speech, Arduino</p>
+							<p class="skills"><b>Skills:</b> Project, Speech, Arduino</p>
 							<a href="https://vk.com/pussycat_in_boots">Подробнее</a>
 						</div>
 					</div>
