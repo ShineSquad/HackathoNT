@@ -6,7 +6,6 @@
 			name="description" 
 			content="16-18 октября 2020 года состоится HackathoNT «Большие данные» в Нижнем Тагиле, площадка пр. Мира 2А - это оффлайн хакатон новых решений в сфере Big Data от компании Мотив для опытных и начинающих IT разработчиков по оптимизации большого количества информации. "
 		>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta 
 			name="keywords" 
 			content="хакатон, Хакатон, хакатонт, hackatont, HackathoNT, Хакатон в Нижнем Тагиле, Хакатоны, Shine Squad, big data, умный дом, smart house, большие данные, нтсгпи, проекты, разработка, программирование, бизнес, архитектура"
@@ -107,10 +106,10 @@
 				<main>
 					<div class="main_content">
 						<div class="main_content_date">16-18 октября 2020</div>
-						<div class="main_content_title">HackathoNT<br> Большие данные</div>
-						<div class="main_content_about">
+						<h1 class="main_content_title">HackathoNT<br> Большие данные</h1>
+						<h2 class="main_content_about">
 							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> - это оффлайн <br>хакатон новых решений в сфере Big Data для <br>опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка пр. Мира 2А
-						</div>
+						</h2>
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
 							<div class="main_content_button">Принять участие</div>
 						</a>
@@ -170,14 +169,14 @@
 				</div>
 				<div class="about_right">
 					<p class="about_right_title">О хакатоне</p>
-					<p class="about_right_description">
+					<h3 class="about_right_description">
 						Главная цель – создание прикладных бизнес-решений и <br> системного подхода в сфере Big Data. <br><br>
 						16-18 октября 2020 состоится уникальное событие – <br>«HackathoNT - Большие данные», который поможет <br>реализовать новые идеи по технологиям поиска, <br>обработки и систематизации большого количества <br>информации. <br><br>
 						Во время хакатона команды IT-специалистов и <br>начинающих разработчиков займутся созданием <br>бизнес-идей по задачам, предложенным <br>компанией «Мотив». <br><br>
 						Мы приглашаем участников реализовать свои идеи вместе с <br>опытными наставниками и побороться за денежный приз. <br><br>
 						Хакатон «Большие данные» не просто конкурс - с утра до ночи, <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
 						Собирай свою команду 2-4 человек. Это будут <br>незабываемые и плодотворные выходные. <br>Присоединяйся!
-					</p>
+					</h3>
 				</div>
 			</div>
 		</div>
