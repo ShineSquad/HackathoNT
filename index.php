@@ -12,6 +12,7 @@
 			content="хакатон, Хакатон, хакатонт, hackatont, HackathoNT, Хакатон в Нижнем Тагиле, Хакатоны, Shine Squad, big data, умный дом, smart house, большие данные, нтсгпи, проекты, разработка, программирование, бизнес, архитектура"
 		>
 		<meta name="robots" content="index,follow" />
+		<meta name="author" content="Shine Squad">
 		<meta charset="utf-8">
 		<link rel="shortcut icon" href="images/logo.svg" type="image/png">
 
