@@ -31,7 +31,8 @@
 
 #footer .container .footer_irid .footer_logo_container a:last-child img,
 #footer .container .footer_irid .footer_logo_container a:first-child img  {
-	height: 150px;
+	height: 200px;
+	width: 400px;
 }
 
 #footer .container .footer_irid .footer_title {

@@ -28,10 +28,17 @@
 	flex-direction: column;
 }
 
+#footer .container .footer_irid .footer_logo_container a:first-child img,
+#footer .container .footer_irid .footer_logo_container a:last-child img {
+	margin-top: 80px;
+	height: 300px;
+}
+
 #footer .container .footer_irid .footer_logo_container img {
 	margin-top: 80px;
-	height: 200px;
+	height: 100px;
 }
+
 
 #footer .container .footer_irid .footer_title {
 	font-size: 4em;
