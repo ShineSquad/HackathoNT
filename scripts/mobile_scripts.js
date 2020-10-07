@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
 
 	console.log(nav)
 	header.addEventListener("click", () => {
-		console.log(1);
+		// console.log(1);
 		nav.classList.toggle("active");
 	})
 })

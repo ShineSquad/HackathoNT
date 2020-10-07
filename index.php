@@ -90,9 +90,11 @@
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform">
-							<div class="mobile_content_button">Принять участие</div>
-						</a>
+						<div class="mobile_content_button">
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+								Принять участие
+							</a>
+						</div>
 						<p class="text">Курирует хакатон <br>команда <b>Shine Squad</b>. <br>Вопросы пишите нам на почту:</p>
 						<p class="mail"><a href="mailto:shinesquad.tech@gmail.com">shinesquad.tech@gmail.com</a></p>
 						<div class="social">
@@ -110,9 +112,11 @@
 						<h2 class="main_content_about">
 							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> - это оффлайн <br>хакатон новых решений в сфере Big Data для <br>опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка пр. Мира 2А
 						</h2>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
-							<div class="main_content_button">Принять участие</div>
-						</a>
+						<div class="main_content_button">
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+								Принять участие
+							</a>
+						</div>
 					</div>
 					<div class="main_house">
 						<img src="images/bigData.svg">
@@ -133,12 +137,14 @@
 					<ul class="about_left_list_questions">
 						<li class="list_questions_item">Занимаешь мобильными или <br>веб-разработками?</li><br>
 						<li class="list_questions_item">Мечтаешь реализовать бизнес-проект<br> в сфере Big Data?</li><br>
-						<li class="list_questions_item">Желаешь попробовать силы и заявить <br>о себе в мире IT?</li><br>
+						<li class="list_questions_item">Желаешь проверить силы и заявить <br>о себе в мире IT?</li><br>
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
-						<div class="about_left_button">Зарегистрироваться</div>
-					</a>
+					<div class="about_left_button">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+							Зарегистрироваться
+						</a>
+					</div>
 					<p class="about_left_left">Заявки на участие принимаются до 14 октября <br>Осталось:</p>
 					<div id="timer">
 						<div class="timer_item">
@@ -172,9 +178,9 @@
 					<h3 class="about_right_description">
 						Главная цель – создание прикладных бизнес-решений и <br> системного подхода в сфере Big Data. <br><br>
 						16-18 октября 2020 состоится уникальное событие – <br>«HackathoNT - Большие данные», который поможет <br>реализовать новые идеи по технологиям поиска, <br>обработки и систематизации большого количества <br>информации. <br><br>
-						Во время хакатона команды IT-специалистов и <br>начинающих разработчиков займутся созданием <br>бизнес-идей по задачам, предложенным <br>компанией «Мотив». <br><br>
+						Во время хакатона команды IT-специалистов и <br>начинающих разработчиков займутся созданием <br>бизнес-идей по задаче, предложенной <br>компанией «Мотив». <br><br>
 						Мы приглашаем участников реализовать свои идеи вместе с <br>опытными наставниками и побороться за денежный приз. <br><br>
-						Хакатон «Большие данные» не просто конкурс - с утра до ночи, <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, дневная и вечерняя развлекательная <br>программа. <br><br>
+						Хакатон «Большие данные» не просто конкурс - с утра до ночи, <br>тебя ждет атмосфера увлекательного общения с <br>интересными людьми, новые знакомства, активные <br>соревнования, вечерняя развлекательная <br>программа. <br><br>
 						Собирай свою команду 2-4 человек. Это будут <br>незабываемые и плодотворные выходные. <br>Присоединяйся!
 					</h3>
 				</div>
@@ -193,13 +199,13 @@
 								Программистов
 								<p>
 									Разработчики веб и мобильных интерфейсов. <br>
-									Full-stack, frontend, backend, NLP, Big Data, ML.
+									Full-stack, frontend, backend, Big Data, ML.
 								</p>
 							</li>
 							<li class="list_role_item">
 								Дизайнеров
 								<p>
-									Дизайнеров Web, mobil, Ui, UX
+									Дизайнеров Web, Mobile, UI, UX
 								</p>
 							</li>
 							<li class="list_role_item">
@@ -280,9 +286,11 @@
 						</div>
 					</div>
 				</div>
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
-					<div class="requirements_button">Принять участие</div>
-				</a>
+				<div class="requirements_button">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+						Принять участие
+					</a>
+				</div>
 				<a href="https://drive.google.com/file/d/1hkaN9pau55KZub4W3IHoE03IXPnJ4hnB/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
 			</div>
 		</div>
@@ -386,9 +394,11 @@
 					<li class="nav_item"><a href="#requirements">Правила</a></li>
 					<li class="nav_item"><a href="#footer">Организаторы</a></li>
 				</ul>
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank">
-					<div class="footer_button">Зарегистрироваться</div>
-				</a>
+				<div class="footer_button">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+						Зарегистрироваться
+					</a>
+				</div>
 			</div>
 		</div>
 		<a id="scroll_top" draggable="false" href="#main"></a>
