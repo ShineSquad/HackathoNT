@@ -132,7 +132,7 @@
 				<div class="about_left">
 					<ul class="about_left_list_questions">
 						<li class="list_questions_item">Занимаешь мобильными или <br>веб-разработками?</li><br>
-						<li class="list_questions_item">Мечтаешь улучшить город и домашнее <br>пространство?</li><br>
+						<li class="list_questions_item">Мечтаешь реализовать бизнес-проект<br> в сфере Big Data?</li><br>
 						<li class="list_questions_item">Желаешь попробовать силы и заявить <br>о себе в мире IT?</li><br>
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
