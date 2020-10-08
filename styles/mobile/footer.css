@@ -30,13 +30,13 @@
 
 #footer .container .footer_irid .footer_logo_container a:first-child img,
 #footer .container .footer_irid .footer_logo_container a:last-child img {
-	margin-top: 80px;
+	margin-top: 100px;
 	height: 300px;
 }
 
 #footer .container .footer_irid .footer_logo_container img {
-	margin-top: 80px;
-	height: 100px;
+	margin-top: 100px;
+	width: 500px;
 }
 
 

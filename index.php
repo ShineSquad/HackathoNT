@@ -99,7 +99,7 @@
 						<p class="mail"><a href="mailto:shinesquad.tech@gmail.com">shinesquad.tech@gmail.com</a></p>
 						<div class="social">
 							или в соц. сети
-							<a href="https://vk.com/hackatont"><img src="images/vk.svg"></a>
+							<a href="https://vk.com/hackathont"><img src="images/vk.svg"></a>
 							<a href="https://www.instagram.com/hackatho.nt/?r=nametag"><img src="images/instagram.svg"></a>
 						</div>
 					</div>
@@ -333,7 +333,8 @@
 					<div class="footer_logo_container">
 						<a href="https://www.ntspi.ru/" target="_blank"><img src="images/logo/ntgspi.svg"></a>
 						<a href="https://motivtelecom.ru/" target="_blank"><img src="images/logo/motiv.png"></a>
-						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/fond.png"></a>
+						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/my_business.svg"></a>
+						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/sofpp.svg"></a>
 					</div>
 				</div>
 				<div class="footer_shinesquad">

@@ -26,13 +26,12 @@
 }
 
 #footer .container .footer_irid .footer_logo_container img {
-	height: 100px;
+	width: 225px;
 }
 
 #footer .container .footer_irid .footer_logo_container a:last-child img,
 #footer .container .footer_irid .footer_logo_container a:first-child img  {
-	height: 200px;
-	width: 400px;
+	height: 150px;
 }
 
 #footer .container .footer_irid .footer_title {
