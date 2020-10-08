@@ -135,7 +135,7 @@
 			<div class="container">
 				<div class="about_left">
 					<ul class="about_left_list_questions">
-						<li class="list_questions_item">Занимаешь мобильными или <br>веб-разработками?</li><br>
+						<li class="list_questions_item">Занимаешься мобильной или <br>веб-разработкой?</li><br>
 						<li class="list_questions_item">Мечтаешь реализовать бизнес-проект<br> в сфере Big Data?</li><br>
 						<li class="list_questions_item">Желаешь проверить силы и заявить <br>о себе в мире IT?</li><br>
 					</ul>
@@ -234,7 +234,7 @@
 								<p class="tasks_list_item_type">Big Data</p>
 								<img class="tasks_list_item_logo" src="images/logo/motiv.png">
 							</div>
-							<p class="tasks_list_item_title">Система оптимизированного внедрения <br>новых сотрудников в компанию </p>
+							<p class="tasks_list_item_title">Помоги HR найти <br>кандидата! </p>
 							<p class="tasks_list_item_title_desc">Описание задания:</p>
 							<p class="tasks_list_item_descriptions">К вам обратилась Компания МОТИВ - HR-департамент находится в поиске продуктового решения по вопросам первичного отбора кандидатов на вакансии. Требуется одновременно трудоустроить до 25 человек. Как вы понимаете, процесс это трудоемкий, так же будущих сотрудников необходимо ввести в курс дел компании и обучить основным аспектам их должности, что в свою очередь отнимает немалое количество времени и ресурсов. В рамках хакатона вам предстоит решить эту задачу. Приветствуются новые идеи, прототипы и инновационные решения на усмотрение участников.</p>
 							<p class="tasks_list_item_goals">Цели:</p>
@@ -245,6 +245,18 @@
 							</ul>
 						</div>
 					</div>
+					<script type="text/javascript">
+						function shuffle(obj) {
+							let t1 = obj.innerText.split("");
+							let t2 = t1.sort(()=>{return Math.random()-0.5})
+							obj.innerText = t2.join("");
+						}
+						shuffle(document.querySelector(".tasks_list_item_descriptions"));
+						shuffle(document.querySelector(".tasks_list_item_title"));
+						shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[0]);
+						shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[1]);
+						shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[2]);
+					</script>
 
 <!-- 					<div class="tasks_list_item">
 						<div>
@@ -302,10 +314,10 @@
 					<img src="images/day2.svg">
 					<img src="images/day3.svg">
 				</div>
-				<p class="schedule_description">
+				<!-- <p class="schedule_description">
 					* Внутреннее расписание мероприятия может слегка меняться. <br><br>
 					** Время отведенное на работу каждый участник организует самостоятельно (определяет перерывы и время на развлечения)
-				</p>
+				</p> -->
 			</div>
 		</div>
 		<div id="footer">
@@ -329,7 +341,7 @@
 							<a href="mailto:shinesquad.tech@gmail.com"><p class="two">shinesquad.tech@gmail.com</p></a>
 							<div class="three">
 								Или в соц. сети 
-								<a href="https://vk.com/hackatont" target="_blank"><img class="icons" src="./images/vk.svg"></a>
+								<a href="https://vk.com/hackathont" target="_blank"><img class="icons" src="./images/vk.svg"></a>
 								<a href="https://www.instagram.com/hackatho.nt/?r=nametag" target="_blank"><img class="icons" src="./images/instagram.svg"></a>
 							</div>
 						</div>
