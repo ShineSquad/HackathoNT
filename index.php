@@ -234,14 +234,20 @@
 								<p class="tasks_list_item_type">Big Data</p>
 								<img class="tasks_list_item_logo" src="images/logo/motiv.png">
 							</div>
-							<p class="tasks_list_item_title">Помоги HR найти <br>кандидата! </p>
+							<p class="tasks_list_item_title">Автоматизация процесса подбора кандидатов</p>
 							<p class="tasks_list_item_title_desc">Описание задания:</p>
-							<p class="tasks_list_item_descriptions">К вам обратилась Компания МОТИВ - HR-департамент находится в поиске продуктового решения по вопросам первичного отбора кандидатов на вакансии. Требуется одновременно трудоустроить до 25 человек. Как вы понимаете, процесс это трудоемкий, так же будущих сотрудников необходимо ввести в курс дел компании и обучить основным аспектам их должности, что в свою очередь отнимает немалое количество времени и ресурсов. В рамках хакатона вам предстоит решить эту задачу. Приветствуются новые идеи, прототипы и инновационные решения на усмотрение участников.</p>
-							<p class="tasks_list_item_goals">Цели:</p>
+							<p class="tasks_list_item_descriptions">Подбор кандидатов в компании - сложная и ответственная задача, каждый день специалисты HR отделов крупных компаний проводят часы за просмотром резюме потенциальных сотрудников.</p>
+							<p class="tasks_list_item_descriptions">
+								На основе работы специальстов HR-отдела, были выделены ключевые моменты по набору кандидатов, которые Вам предлагается автоматизировать / упростить / улучшить / ускорить:
+							</p>
+							<!-- <p class="tasks_list_item_goals">Цели:</p> -->
 							<ul class="tasks_list_item_goals_list">
-								<li>Автоматизация внедрения новых сотрудников</li>
-								<li>Сокращение текучки кадров</li>
-								<li>Сокращение расходов на обучение</li>
+								<li>Анализ открытых источников по агрегации вакансий</li>
+								<li>Анализ профилей социальных сетей с целью поиска потенциальных кандидатов</li>
+								<li>Создание интерфейса подбора кандидатов с возможностью настройки параметров поиска кандидатов, для сотрудников HR-департамента</li>
+								<li>Автоматизация процесса первичного контакта с потенциальными соискателями</li>
+								<li>Автоматизация принятия решения</li>
+								<li>Формирование базы данных потенциальных кандидатов с заданными параметрами</li>
 							</ul>
 						</div>
 					</div>
@@ -251,11 +257,11 @@
 							let t2 = t1.sort(()=>{return Math.random()-0.5})
 							obj.innerText = t2.join("");
 						}
-						shuffle(document.querySelector(".tasks_list_item_descriptions"));
-						shuffle(document.querySelector(".tasks_list_item_title"));
-						shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[0]);
-						shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[1]);
-						shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[2]);
+						// shuffle(document.querySelector(".tasks_list_item_descriptions"));
+						// shuffle(document.querySelector(".tasks_list_item_title"));
+						// shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[0]);
+						// shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[1]);
+						// shuffle(document.querySelectorAll(".tasks_list_item_goals_list > li")[2]);
 					</script>
 
 <!-- 					<div class="tasks_list_item">
