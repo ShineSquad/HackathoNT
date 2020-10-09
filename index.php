@@ -110,7 +110,7 @@
 						<div class="main_content_date">16-18 октября 2020</div>
 						<h1 class="main_content_title">HackathoNT<br> Большие данные</h1>
 						<h2 class="main_content_about">
-							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> &mdash; это <br>оффлайн-хакатон новых решений в сфере Big Data для <br>опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка "пр. Мира, 2А".
+							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> &mdash; это <br>оффлайн-хакатон новых решений в сфере Big Data <br>для опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка - центр «Мой бизнес» <br>пр. Мира, 2А
 						</h2>
 						<div class="main_content_button">
 							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
@@ -309,7 +309,7 @@
 						Принять участие
 					</a>
 				</div>
-				<a href="https://drive.google.com/file/d/1hkaN9pau55KZub4W3IHoE03IXPnJ4hnB/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
+				<a href="https://drive.google.com/file/d/1Em4FEx7_L5XKfRoBwJnfM8UTEunVE1NA/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
 			</div>
 		</div>
 		<div id="schedule">
@@ -331,8 +331,11 @@
 				<div class="footer_irid">
 					<div class="footer_title">Партнеры:</div>
 					<div class="footer_logo_container">
-						<a href="https://www.ntspi.ru/" target="_blank"><img src="images/logo/ntgspi.svg"></a>
 						<a href="https://motivtelecom.ru/" target="_blank"><img src="images/logo/motiv.png"></a>
+						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/iron_logic.png"></a>
+					</div>
+					<div class="footer_logo_container">
+						<a href="https://www.ntspi.ru/" target="_blank"><img src="images/logo/ntgspi.svg"></a>
 						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/my_business.svg"></a>
 						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/sofpp.svg"></a>
 					</div>
