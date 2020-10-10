@@ -91,7 +91,7 @@
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
 						<div class="mobile_content_button">
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
 								Принять участие
 							</a>
 						</div>
@@ -113,7 +113,7 @@
 							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> &mdash; это <br>оффлайн-хакатон новых решений в сфере Big Data <br>для опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка - центр «Мой бизнес» <br>пр. Мира, 2А
 						</h2>
 						<div class="main_content_button">
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
 								Принять участие
 							</a>
 						</div>
@@ -141,7 +141,7 @@
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
 					<div class="about_left_button">
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
 							Зарегистрироваться
 						</a>
 					</div>
@@ -305,7 +305,7 @@
 					</div>
 				</div>
 				<div class="requirements_button">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
 						Принять участие
 					</a>
 				</div>
@@ -330,7 +330,7 @@
 			<div class="container">
 				<div class="footer_irid">
 					<div class="footer_title">Партнеры:</div>
-					<div class="footer_logo_container">
+					<div class="footer_logo_containerx">
 						<a href="https://motivtelecom.ru/" target="_blank"><img src="images/logo/motiv.png"></a>
 						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/iron_logic.png"></a>
 					</div>
@@ -417,7 +417,7 @@
 					<li class="nav_item"><a href="#footer">Организаторы</a></li>
 				</ul>
 				<div class="footer_button">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: black">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
 						Зарегистрироваться
 					</a>
 				</div>
