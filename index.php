@@ -330,7 +330,7 @@
 			<div class="container">
 				<div class="footer_irid">
 					<div class="footer_title">Партнеры:</div>
-					<div class="footer_logo_containerx">
+					<div class="footer_logo_container">
 						<a href="https://motivtelecom.ru/" target="_blank"><img src="images/logo/motiv.png"></a>
 						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/iron_logic.png"></a>
 					</div>
