@@ -144,8 +144,8 @@
 #main .container main .main_content .main_content_button {
 	background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
 	border-radius: 5px;
-	height: 60px;
 	width: 40%;
+	height: 60px;
 	color: #182B60;
 	line-height: 60px;
 	text-align: center;

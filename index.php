@@ -90,11 +90,11 @@
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
-						<div class="mobile_content_button">
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+							<div class="mobile_content_button">
 								Принять участие
-							</a>
-						</div>
+							</div>
+						</a>
 						<p class="text">Курирует хакатон <br>команда <b>Shine Squad</b>. <br>Вопросы пишите нам на почту:</p>
 						<p class="mail"><a href="mailto:shinesquad.tech@gmail.com">shinesquad.tech@gmail.com</a></p>
 						<div class="social">
@@ -112,11 +112,11 @@
 						<h2 class="main_content_about">
 							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> &mdash; это <br>оффлайн-хакатон новых решений в сфере Big Data <br>для опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка - центр «Мой бизнес» <br>пр. Мира, 2А
 						</h2>
-						<div class="main_content_button">
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+							<div class="main_content_button">
 								Принять участие
-							</a>
-						</div>
+							</div>
+						</a>
 					</div>
 					<div class="main_house">
 						<img src="images/bigData.svg">
@@ -140,11 +140,11 @@
 						<li class="list_questions_item">Желаешь проверить силы и заявить <br>о себе в мире IT?</li><br>
 					</ul>
 					<p class="about_left_call">Тогда HackathoNT <br>для тебя!</p>
-					<div class="about_left_button">
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+						<div class="about_left_button">
 							Зарегистрироваться
-						</a>
-					</div>
+						</div>
+					</a>
 					<p class="about_left_left">Заявки на участие принимаются до 15 октября. <br>Осталось:</p>
 					<div id="timer">
 						<div class="timer_item">
@@ -304,11 +304,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="requirements_button">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+					<div class="requirements_button">
 						Принять участие
-					</a>
-				</div>
+					</div>
+				</a>
 				<a href="https://drive.google.com/file/d/1Em4FEx7_L5XKfRoBwJnfM8UTEunVE1NA/view?usp=sharing" target="_blank" class="link_requirements">Регламент</a>
 			</div>
 		</div>
@@ -416,11 +416,11 @@
 					<li class="nav_item"><a href="#requirements">Правила</a></li>
 					<li class="nav_item"><a href="#footer">Организаторы</a></li>
 				</ul>
-				<div class="footer_button">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+					<div class="footer_button">
 						Зарегистрироваться
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 		</div>
 		<a id="scroll_top" draggable="false" href="#main"></a>
