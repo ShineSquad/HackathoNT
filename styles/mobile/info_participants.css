@@ -1,0 +1,55 @@
+#info_participants {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(90deg, #FF5071 17.76%, #FF8686 84.01%);
+	display: flex;
+	align-items: center;
+}
+
+#info_participants .container {
+	/*min-width: 1200px;*/
+	height: auto;
+	align-items: center;	
+	flex-direction: column;
+	display: flex;
+	padding: 50px 0;
+	margin-bottom: 100px;
+}
+
+#info_participants .container .title {
+	font-weight: 800;
+	font-size: 10em;
+	font-family: MontserratBold;
+	color: #FF95A8;
+	margin-bottom: 100px;
+}
+
+#info_participants .container .for_participants {
+	font-weight: bold;
+	font-size: 5em;
+	color: #FFFFFF;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+#info_participants .container .link_container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 100px;
+/*	width: 250px;*/
+}
+
+#info_participants .container .link_container .link {
+	font-weight: 600;
+	font-size: 5em;
+	color: #FFFFFF;
+	text-decoration: underline;
+	margin-top: 50px;
+}
+
+#info_participants .container .link_container .description {
+	color: white;
+	font-size: 3em;
+	margin-top: 15px;
+}

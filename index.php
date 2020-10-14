@@ -32,6 +32,7 @@
 					<link rel="stylesheet" type="text/css" href="styles/mobile/requirements.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/schedule.css">
 					<link rel="stylesheet" type="text/css" href="styles/mobile/footer.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/info_participants.css">
 				<?php
 			}
 			else {
@@ -48,6 +49,7 @@
 					<link rel="stylesheet" type="text/css" href="styles/requirements.css">
 					<link rel="stylesheet" type="text/css" href="styles/schedule.css">
 					<link rel="stylesheet" type="text/css" href="styles/footer.css">
+					<link rel="stylesheet" type="text/css" href="styles/info_participants.css">
 				<?php
 			}
 		?>
@@ -122,6 +124,20 @@
 						<img src="images/bigData.svg">
 					</div>
 				</main>
+			</div>
+		</div>
+		<div id="info_participants">
+			<div class="container">
+				<p class="title">NEW!</p>
+				<p class="for_participants">Информация для участников:</p>
+				<div class="link_container">
+					<a class="link" href="https://t.me/joinchat/HK8RRRi65OWj4I3GJsT9PQ">Чат для вопросов</a>
+					<p class="description">В этом чате вы сможете задавать вопросы организаторам и экспертам</p>
+				</div>
+				<div class="link_container">
+					<a class="link" href="https://t.me/joinchat/AAAAAEnqYoqeMbvzT9ZSsQ">Новостной канал хакатона</a>
+					<p class="description">Самые актуальные новости хакатона вы можете найти в телеграмм-канале</p>
+				</div>
 			</div>
 		</div>
 		<div id="prize_fund">
