@@ -1,5 +1,5 @@
 function updateTimer() {
-	const end = new Date(2020, 9, 15, 23, 59, 0);
+	const end = new Date(2020, 9, 16, 16, 0, 0);
 	let current = new Date(),
 		diff = (end - current) / 1000,
 		s = Math.round( diff % 60 ),

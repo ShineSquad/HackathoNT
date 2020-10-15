@@ -161,7 +161,8 @@
 							Зарегистрироваться
 						</div>
 					</a>
-					<p class="about_left_left">Заявки на участие принимаются до 15 октября. <br>Осталось:</p>
+					<p class="about_left_left">Хакатон начинается 16 октября. <br>Осталось:</p>
+					<!-- <p class="about_left_left">Заявки на участие принимаются до 15 октября. <br>Осталось:</p> -->
 					<div id="timer">
 						<div class="timer_item">
 							<div class="timer_item_block">
