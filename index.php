@@ -92,9 +92,9 @@
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+						<a href="https://drive.google.com/file/d/12apWflmEQSDtllqESoGeMS2RT9mGLNLz/view?usp=sharing" target="_blank" style="color: #182B60">
 							<div class="mobile_content_button">
-								Принять участие
+								Задача
 							</div>
 						</a>
 						<p class="text">Курирует хакатон <br>команда <b>Shine Squad</b>. <br>Вопросы пишите нам на почту:</p>
@@ -114,9 +114,9 @@
 						<h2 class="main_content_about">
 							<b style="font-family: MontserratBold">HackathoNT «Большие данные»</b> &mdash; это <br>оффлайн-хакатон новых решений в сфере Big Data <br>для опытных и начинающих разработчиков <br>в Нижнем Тагиле, площадка - центр «Мой бизнес» <br>пр. Мира, 2А
 						</h2>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEsWNPgtXrV4wrlBvtQhAZJ72OBOZoaSq-aFHGCPoOYEX_Tg/viewform" target="_blank" style="color: #182B60">
+						<a href="https://drive.google.com/file/d/12apWflmEQSDtllqESoGeMS2RT9mGLNLz/view?usp=sharing" target="_blank" style="color: #182B60">
 							<div class="main_content_button">
-								Принять участие
+								Задача
 							</div>
 						</a>
 					</div>
@@ -161,30 +161,30 @@
 							Зарегистрироваться
 						</div>
 					</a>
-					<p class="about_left_left">Хакатон начинается 16 октября. <br>Осталось:</p>
+					<p class="about_left_left">Хакатон стартовал!</p>
 					<!-- <p class="about_left_left">Заявки на участие принимаются до 15 октября. <br>Осталось:</p> -->
 					<div id="timer">
 						<div class="timer_item">
 							<div class="timer_item_block">
-								<div class="_days"></div>
+								<div class="_days">0</div>
 							</div>
 							<div class="timer_item_name">дней</div>
 						</div> <p>:</p>
 						<div class="timer_item">
 							<div class="timer_item_block">
-								<div class="_hours"></div>
+								<div class="_hours">0</div>
 							</div>
 							<div class="timer_item_name">часов</div>
 						</div> <p>:</p>
 						<div class="timer_item">
 							<div class="timer_item_block">
-								<div class="_minutes"></div>
+								<div class="_minutes">0</div>
 							</div>
 							<div class="timer_item_name">минут</div>
 						</div> <p>:</p>
 						<div class="timer_item">
 							<div class="timer_item_block">
-								<div class="_seconds"></div>
+								<div class="_seconds">0</div>
 							</div>
 							<div class="timer_item_name">секунд</div>
 						</div>
