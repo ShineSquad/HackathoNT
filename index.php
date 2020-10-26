@@ -126,7 +126,7 @@
 				</main>
 			</div>
 		</div>
-		<div id="info_participants">
+		<div id="info_participants" style="display: none;">
 			<div class="container">
 				<p class="title">NEW!</p>
 				<p class="for_participants">Информация для участников:</p>
