@@ -26,6 +26,7 @@
 #main .container header .logo {
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 #main .container header .logo img {

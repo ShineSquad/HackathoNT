@@ -22,7 +22,7 @@
 	align-items: center;
 }
 
-#footer .container .footer_irid .footer_logo_container2 {
+/*#footer .container .footer_irid .footer_logo_container2 {
 	justify-content: space-around;
 	display: flex;
 	align-items: center;
@@ -31,7 +31,7 @@
 
 #footer .container .footer_irid .footer_logo_container2 a:last-child img {
 	height: 250px;
-}
+}*/
 
 #footer .container .footer_irid .footer_logo_container a:first-child img{
 	width: 250px;

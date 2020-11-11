@@ -59,7 +59,7 @@
 		<div id="main">
 			<div class="container">
 				<header>
-					<div class="logo">
+					<div class="logo" onclick="window.location.href='index.php'">
 						<img src="images/white_hackathont_logo.svg">
 						<p>HackathoNT 1.0</p>
 					</div>
@@ -348,19 +348,18 @@
 				<div class="footer_irid">
 					<div class="footer_title">Партнеры:</div>
 					<div class="footer_logo_container">
-						<a href="https://www.ntspi.ru/" target="_blank"><img src="images/logo/ntgspi.svg"></a>
 						<a href="https://motivtelecom.ru/" target="_blank"><img src="images/logo/motiv.png"></a>
 						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/iron_logic.png"></a>
+					</div>
+					<div class="footer_logo_container">
+						<a href="https://www.ntspi.ru/" target="_blank"><img src="images/logo/ntgspi.svg"></a>
+						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/my_business.svg"></a>
+						<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/sofpp.svg"></a>
 					</div>
 				</div>
 				<div class="footer_shinesquad">
 					<p class="footer_shinesquad_prev">Разработчики и <br>организаторы HackathoNT:</p>
-					<div class="footer_irid">
-						<div class="footer_logo_container2">
-							<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/my_business.svg"></a>
-							<a href="https://nt.sofp.ru/" target="_blank"><img src="images/logo/sofpp.svg"></a>
-						</div>
-					</div>
+					
 					<div class="footer_shinesquad_desc">
 						<div class="footer_shinesquad_description_name">
 							Команда <br>Shine Squad

@@ -1,0 +1,30 @@
+#form {
+	width: 100%;
+	height: auto;
+	padding: 130px 0px;
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#form #team_lead {
+	display: flex;
+	flex-direction: column;
+}
+
+#form .form_part {
+	display: flex;
+	flex-direction: column;
+}
+
+#form #team_lead .role {
+	display: flex;
+	flex-direction: column;
+}
+
+#form .form_part .role {
+	display: flex;
+	flex-direction: column;
+}
+
