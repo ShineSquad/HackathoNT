@@ -39,7 +39,7 @@
 			<table id="team_list2" border="1">
 				<tr>
 					<th>ФИО</th>
-					<th>Поле для росписи</th>
+					<th>Росписи</th>
 				</tr>
 			</table>
 		</div>

@@ -41,7 +41,7 @@ createTable = () => {
 				team = resp.val()[i];
 			table.appendChild(tr);
 			tr.appendChild(td);
-			td.rowSpan = 2;
+			td.colSpan = 2;
 			td.innerText = team.name_team;
 			td.classList.add('title_team');
 			for (j in team.participants) {
@@ -54,7 +54,6 @@ createTable = () => {
 				tr_td.appendChild(td_mail);
 				td_name.innerText = team.participants[j].name_part;
 				td_mail.innerText = team.participants[j].mail_part
-				console.log(team.participants[j].name_part);
 			}
 		}
 	})
@@ -69,7 +68,7 @@ createTable2 = () => {
 				team = resp.val()[i];
 			table.appendChild(tr);
 			tr.appendChild(td);
-			td.rowSpan = 2;
+			td.colSpan = 2;
 			td.innerText = team.name_team;
 			td.classList.add('title_team');
 			for (j in team.participants) {
@@ -81,7 +80,6 @@ createTable2 = () => {
 				tr_td.appendChild(td_name);
 				tr_td.appendChild(td_mail);
 				td_name.innerText = team.participants[j].name_part;
-				console.log(team.participants[j].name_part);
 			}
 		}
 	})
