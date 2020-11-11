@@ -9,14 +9,16 @@
 		<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
 		<script type="text/javascript" src="scripts/fb_init.js"></script>
 		<script type="text/javascript" src="scripts/admin.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/admin.css">
 	</head>
 	<body>
 		<script type="text/javascript">
-			window.onload = () => { 
+			window.onload = () => {
 				fb_init();
 				let user = localStorage.getItem("user");
 				if (user == null) { window.location.href = "auth.html"; }
-				else { return true; }
+				else { createTable(); createTable2();}
+				
 			}
 		</script>
 		<div>
@@ -26,12 +28,20 @@
 				<button onclick="reg()">Регистрация</button>
 			</form>
 			<hr>
-			<form method="post" onSubmit="return false;" id="authAdmin">
-				<input type="text" name="name" placeholder="Имя">
-				<input type="password" name="password" placeholder="Пароль">
-				<button onclick="auth()">Авторизация</button>
-			</form>
-			<hr>
+		</div>
+		<div>
+			<table id="team_list1" border="1" style="margin-bottom: 50px;">
+				<tr>
+					<th>ФИО</th>
+					<th>Почта</th>
+				</tr>
+			</table>
+			<table id="team_list2" border="1">
+				<tr>
+					<th>ФИО</th>
+					<th>Поле для росписи</th>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>

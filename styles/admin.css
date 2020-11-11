@@ -1,0 +1,14 @@
+#team_list1 {
+
+}
+#team_list1 .title_team {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#team_list2 .title_team {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
