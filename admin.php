@@ -51,7 +51,7 @@
 		</div>
 		<?php
 
-			error_reporting(0);
+			// error_reporting(0);
 
 			require './vendor/autoload.php';
 
@@ -62,9 +62,6 @@
 
 			function createReportInfo() {
 
-				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
-				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
-				
 				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
 
 				$database = $factory->createDatabase();
@@ -160,6 +157,9 @@
 				}
 
 				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+
+				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
+				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 				
 				ob_clean();
 				$objWriter->save('php://output');
