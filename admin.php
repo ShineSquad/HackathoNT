@@ -1,7 +1,5 @@
 <?php
 
-	// error_reporting(0);
-
 	require './vendor/autoload.php';
 
 	use Kreait\Firebase\Factory;
