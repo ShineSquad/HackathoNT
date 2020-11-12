@@ -1,3 +1,230 @@
+<?php
+
+	// error_reporting(0);
+
+	require './vendor/autoload.php';
+
+	use Kreait\Firebase\Factory;
+	use Kreait\Firebase\ServiceAccount;
+
+	use PhpOffice\PhpWord\PhpWord;
+
+	function createReportInfo() {
+
+		$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
+
+		$database = $factory->createDatabase();
+		$reference = $database->getReference('teams');
+		$snapshot = $reference->getSnapshot();
+		$data = $snapshot->getValue();
+
+		$phpWord = new PhpWord();
+
+		$phpWord -> setDefaultFontName('Times New Roman');
+		$phpWord -> setDefaultFontSize(14);
+
+		$properties = $phpWord -> getDocInfo();
+
+		$properties->setCreator('Morty');
+		$properties->setCompany('ShineSquad');
+		$properties->setTitle('Report');
+		$properties->setDescription('This is my report');
+		$properties->setCategory('My category');
+		$properties->setLastModifiedBy('Morty');
+		$properties->setCreated(mktime(0, 0, 0, 3, 12, 2014));
+		$properties->setModified(mktime(0, 0, 0, 3, 14, 2014));
+		$properties->setSubject('My subject');
+		$properties->setKeywords('my, key, word');
+
+		$cellRowContinue = array(
+			'vMerge' => 'continue',
+			'valign' => 'center'
+		);
+		$cellRowRestart = array(
+			'vMerge' => 'restart',
+			'valign' => 'center'
+		);
+		$sectionStyle = array(
+			'orientation' => 'landscape',
+		);
+		$cellHCentered = array(
+			'align' => 'center'
+		);
+		$cellVCentered = array(
+			'valign' => 'center'
+		);
+		$styleTable = array(
+			'borderSize' => 6, 
+			'borderColor' => '999999',
+		);
+
+		$section = $phpWord -> addSection($sectionStyle);
+
+		$phpWord->addTableStyle('Colspan Rowspan', $styleTable);
+		$table = $section->addTable('Colspan Rowspan');
+		$table->addRow(null, array('tblHeader' => true));
+		$table->addCell(7000, $cellVCentered)->addText(
+			'ФИО', 
+			array('bold' => true), 
+			$cellHCentered
+		);
+		$table->addCell(7000, $cellVCentered) -> addText(
+			'Почта', 
+			array('bold' => true), 
+			$cellHCentered
+		);
+
+		foreach ($data as $key => $value) {
+			$team_name = $value["name_team"];
+			$participants = $value["participants"];
+			$table->addRow(null, array('tblHeader' => true));
+			$table->addCell(14000, $cellVCentered) -> addText(
+				$team_name, 
+				array('bold' => true), 
+				$cellHCentered
+			);
+			foreach ($participants as $key => $val) {
+				$mail = $val["mail_part"];
+				$name = $val["name_part"];
+				if ($name == NULL) {  } else {
+					$table->addRow(null, array('tblHeader' => true));
+					$table->addCell(7000, $cellVCentered) -> addText(
+						$name, 
+						array('bold' => false), 
+						$cellHCentered
+					);
+					$table->addCell(7000, $cellVCentered) -> addText(
+						$mail, 
+						array('bold' => false), 
+						$cellHCentered
+					);
+				}
+				
+			}
+		}
+
+		$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+
+		header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
+		header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+		
+		ob_clean();
+		$objWriter->save('php://output');
+		exit;
+	}
+
+	function createReportSign() {
+		$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
+
+		$database = $factory->createDatabase();
+		$reference = $database->getReference('teams');
+		$snapshot = $reference->getSnapshot();
+		$data = $snapshot->getValue();
+
+		$phpWord = new PhpWord(); 
+
+		$phpWord -> setDefaultFontName('Times New Roman');
+		$phpWord -> setDefaultFontSize(14);
+
+		$properties = $phpWord -> getDocInfo();
+
+		$properties->setCreator('Morty');
+		$properties->setCompany('ShineSquad');
+		$properties->setTitle('Report');
+		$properties->setDescription('This is my report');
+		$properties->setCategory('My category');
+		$properties->setLastModifiedBy('Morty');
+		$properties->setCreated(mktime(0, 0, 0, 3, 12, 2014));
+		$properties->setModified(mktime(0, 0, 0, 3, 14, 2014));
+		$properties->setSubject('My subject');
+		$properties->setKeywords('my, key, word');
+
+		$cellRowContinue = array(
+			'vMerge' => 'continue',
+			'valign' => 'center'
+		);
+		$cellRowRestart = array(
+			'vMerge' => 'restart',
+			'valign' => 'center'
+		);
+		$sectionStyle = array(
+			'orientation' => 'landscape',
+		);
+		$cellHCentered = array(
+			'align' => 'center'
+		);
+		$cellVCentered = array(
+			'valign' => 'center'
+		);
+		$styleTable = array(
+			'borderSize' => 6, 
+			'borderColor' => '999999',
+		);
+
+		$section = $phpWord -> addSection($sectionStyle);
+
+		$phpWord->addTableStyle('Colspan Rowspan', $styleTable);
+		$table = $section->addTable('Colspan Rowspan');
+		$table->addRow(null, array('tblHeader' => true));
+		$table->addCell(7000, $cellVCentered)->addText(
+			'ФИО', 
+			array('bold' => true), 
+			$cellHCentered
+		);
+		$table->addCell(7000, $cellVCentered) -> addText(
+			'Роспись', 
+			array('bold' => true), 
+			$cellHCentered
+		);
+
+		foreach ($data as $key => $value) {
+			$team_name = $value["name_team"];
+			$participants = $value["participants"];
+			$table->addRow(null, array('tblHeader' => true));
+			$table->addCell(14000, $cellVCentered) -> addText(
+				$team_name, 
+				array('bold' => true), 
+				$cellHCentered
+			);
+			foreach ($participants as $key => $val) {
+				$name = $val["name_part"];
+				if ($name == NULL) {  } else {
+					$table->addRow(null, array('tblHeader' => true));
+					$table->addCell(7000, $cellVCentered) -> addText(
+						$name, 
+						array('bold' => false), 
+						$cellHCentered
+					);
+					$table->addCell(7000, $cellVCentered) -> addText(
+						'', 
+						array('bold' => false), 
+						$cellHCentered
+					);
+				}
+				
+			}
+		}
+
+		$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+
+		header('Content-Disposition: attachment; filename="Отчет для сбора подписей.docx"');
+		header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+		
+		ob_clean();
+		$objWriter->save('php://output');
+		exit;
+	}
+
+	if($_GET['infoReport']){
+	   createReportInfo();
+	}
+
+	if($_GET['signReport']){
+	   createReportSign();
+	}
+	
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -49,233 +276,6 @@
 				<a href="admin.php?signReport=1" class="btn">Сформировать отчет с подписями</a>
 			</div>
 		</div>
-		<?php
-
-			// error_reporting(0);
-
-			require './vendor/autoload.php';
-
-			use Kreait\Firebase\Factory;
-			use Kreait\Firebase\ServiceAccount;
-
-			use PhpOffice\PhpWord\PhpWord;
-
-			function createReportInfo() {
-
-				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
-
-				$database = $factory->createDatabase();
-				$reference = $database->getReference('teams');
-				$snapshot = $reference->getSnapshot();
-				$data = $snapshot->getValue();
-
-				iconv(mb_detect_encoding($data, mb_detect_order(), true), "UTF-8", $data);
-
-				$phpWord = new PhpWord();
-
-				$phpWord -> setDefaultFontName('Times New Roman');
-				$phpWord -> setDefaultFontSize(14);
-
-				$properties = $phpWord -> getDocInfo();
-
-				$properties->setCreator('Morty');
-				$properties->setCompany('ShineSquad');
-				$properties->setTitle('Report');
-				$properties->setDescription('This is my report');
-				$properties->setCategory('My category');
-				$properties->setLastModifiedBy('Morty');
-				$properties->setCreated(mktime(0, 0, 0, 3, 12, 2014));
-				$properties->setModified(mktime(0, 0, 0, 3, 14, 2014));
-				$properties->setSubject('My subject');
-				$properties->setKeywords('my, key, word');
-
-				$cellRowContinue = array(
-					'vMerge' => 'continue',
-					'valign' => 'center'
-				);
-				$cellRowRestart = array(
-					'vMerge' => 'restart',
-					'valign' => 'center'
-				);
-				$sectionStyle = array(
-					'orientation' => 'landscape',
-				);
-				$cellHCentered = array(
-					'align' => 'center'
-				);
-				$cellVCentered = array(
-					'valign' => 'center'
-				);
-				$styleTable = array(
-					'borderSize' => 6, 
-					'borderColor' => '999999',
-				);
-
-				$section = $phpWord -> addSection($sectionStyle);
-
-				$phpWord->addTableStyle('Colspan Rowspan', $styleTable);
-				$table = $section->addTable('Colspan Rowspan');
-				$table->addRow(null, array('tblHeader' => true));
-				$table->addCell(7000, $cellVCentered)->addText(
-					'ФИО', 
-					array('bold' => true), 
-					$cellHCentered
-				);
-				$table->addCell(7000, $cellVCentered) -> addText(
-					'Почта', 
-					array('bold' => true), 
-					$cellHCentered
-				);
-
-				foreach ($data as $key => $value) {
-					$team_name = $value["name_team"];
-					$participants = $value["participants"];
-					$table->addRow(null, array('tblHeader' => true));
-					$table->addCell(14000, $cellVCentered) -> addText(
-						$team_name, 
-						array('bold' => true), 
-						$cellHCentered
-					);
-					foreach ($participants as $key => $val) {
-						$mail = $val["mail_part"];
-						$name = $val["name_part"];
-						if ($name == NULL) {  } else {
-							$table->addRow(null, array('tblHeader' => true));
-							$table->addCell(7000, $cellVCentered) -> addText(
-								$name, 
-								array('bold' => false), 
-								$cellHCentered
-							);
-							$table->addCell(7000, $cellVCentered) -> addText(
-								$mail, 
-								array('bold' => false), 
-								$cellHCentered
-							);
-						}
-						
-					}
-				}
-
-				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
-
-				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
-				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
-				
-				ob_clean();
-				$objWriter->save('php://output');
-				exit;
-			}
-
-			function createReportSign() {
-				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
-
-				$database = $factory->createDatabase();
-				$reference = $database->getReference('teams');
-				$snapshot = $reference->getSnapshot();
-				$data = $snapshot->getValue();
-
-				$phpWord = new PhpWord(); 
-
-				$phpWord -> setDefaultFontName('Times New Roman');
-				$phpWord -> setDefaultFontSize(14);
-
-				$properties = $phpWord -> getDocInfo();
-
-				$properties->setCreator('Morty');
-				$properties->setCompany('ShineSquad');
-				$properties->setTitle('Report');
-				$properties->setDescription('This is my report');
-				$properties->setCategory('My category');
-				$properties->setLastModifiedBy('Morty');
-				$properties->setCreated(mktime(0, 0, 0, 3, 12, 2014));
-				$properties->setModified(mktime(0, 0, 0, 3, 14, 2014));
-				$properties->setSubject('My subject');
-				$properties->setKeywords('my, key, word');
-
-				$cellRowContinue = array(
-					'vMerge' => 'continue',
-					'valign' => 'center'
-				);
-				$cellRowRestart = array(
-					'vMerge' => 'restart',
-					'valign' => 'center'
-				);
-				$sectionStyle = array(
-					'orientation' => 'landscape',
-				);
-				$cellHCentered = array(
-					'align' => 'center'
-				);
-				$cellVCentered = array(
-					'valign' => 'center'
-				);
-				$styleTable = array(
-					'borderSize' => 6, 
-					'borderColor' => '999999',
-				);
-
-				$section = $phpWord -> addSection($sectionStyle);
-
-				$phpWord->addTableStyle('Colspan Rowspan', $styleTable);
-				$table = $section->addTable('Colspan Rowspan');
-				$table->addRow(null, array('tblHeader' => true));
-				$table->addCell(7000, $cellVCentered)->addText(
-					'ФИО', 
-					array('bold' => true), 
-					$cellHCentered
-				);
-				$table->addCell(7000, $cellVCentered) -> addText(
-					'Роспись', 
-					array('bold' => true), 
-					$cellHCentered
-				);
-
-				foreach ($data as $key => $value) {
-					$team_name = $value["name_team"];
-					$participants = $value["participants"];
-					$table->addRow(null, array('tblHeader' => true));
-					$table->addCell(14000, $cellVCentered) -> addText(
-						$team_name, 
-						array('bold' => true), 
-						$cellHCentered
-					);
-					foreach ($participants as $key => $val) {
-						$name = $val["name_part"];
-						if ($name == NULL) {  } else {
-							$table->addRow(null, array('tblHeader' => true));
-							$table->addCell(7000, $cellVCentered) -> addText(
-								$name, 
-								array('bold' => false), 
-								$cellHCentered
-							);
-							$table->addCell(7000, $cellVCentered) -> addText(
-								'', 
-								array('bold' => false), 
-								$cellHCentered
-							);
-						}
-						
-					}
-				}
-
-				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
-	 
-				header('Content-Disposition: attachment; filename="Отчет для сбора подписей.docx"');
-				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
-				
-				ob_clean();
-				$objWriter->save('php://output');
-				exit;
-			}
-
-			if($_GET['infoReport']){
-			   createReportInfo();
-			}
-
-			if($_GET['signReport']){
-			   createReportSign();
-			}
-			
-		?>
+		
 	</body>
 </html>
