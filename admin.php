@@ -51,8 +51,7 @@
 		</div>
 		<?php
 
-			ini_set("display_errors", 1);
-			// error_reporting(0);
+			error_reporting(0);
 
 			require './vendor/autoload.php';
 
@@ -68,6 +67,8 @@
 				$reference = $database->getReference('teams');
 				$snapshot = $reference->getSnapshot();
 				$data = $snapshot->getValue();
+
+				iconv(mb_detect_encoding($data, mb_detect_order(), true), "UTF-8", $data);
 
 				$phpWord = new PhpWord();
 
@@ -154,9 +155,9 @@
 					}
 				}
 
-				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007', $download = true);
+				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
 	 
-				header('Content-Disposition: attachment; filename="report.docx"');
+				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
 				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 				
 				ob_clean();
