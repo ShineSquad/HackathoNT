@@ -58,7 +58,7 @@
 			use Kreait\Firebase\Factory;
 			use Kreait\Firebase\ServiceAccount;
 
-			function createReportInfo() {
+			// function createReportInfo() {
 				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
 
 				$database = $factory->createDatabase();
@@ -159,7 +159,7 @@
 				ob_clean();
 				$objWriter->save('php://output');
 				exit;
-			}
+			// }
 
 			function createReportSign() {
 				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
