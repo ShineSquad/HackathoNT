@@ -58,6 +58,8 @@
 			use Kreait\Firebase\Factory;
 			use Kreait\Firebase\ServiceAccount;
 
+			use PhpOffice\PhpWord\PhpWord;
+
 			function createReportInfo() {
 				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
 
@@ -66,7 +68,7 @@
 				$snapshot = $reference->getSnapshot();
 				$data = $snapshot->getValue();
 
-				$phpWord = new \PhpOffice\PhpWord\PhpWord();
+				$phpWord = new PhpWord();
 
 				$phpWord -> setDefaultFontName('Times New Roman');
 				$phpWord -> setDefaultFontSize(14);
@@ -152,10 +154,9 @@
 				}
 
 				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
-	 	
-	 			header('Content-Type: text/html; charset=utf-8');
+	 
 				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
-				// header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 				
 				ob_clean();
 				$objWriter->save('php://output');
@@ -170,7 +171,7 @@
 				$snapshot = $reference->getSnapshot();
 				$data = $snapshot->getValue();
 
-				$phpWord = new \PhpOffice\PhpWord\PhpWord();
+				$phpWord = new PhpWord(); 
 
 				$phpWord -> setDefaultFontName('Times New Roman');
 				$phpWord -> setDefaultFontSize(14);
