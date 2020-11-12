@@ -155,7 +155,7 @@
 
 				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
 	 
-				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
+				header('Content-Disposition: attachment; filename="report.docx"');
 				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 				
 				ob_clean();
