@@ -152,7 +152,8 @@
 				}
 
 				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
-	 
+	 	
+	 			header('Content-Type: text/html; charset=utf-8');
 				header('Content-Disposition: attachment; filename="Отчет с инфомацией об участниках.docx"');
 				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 				
