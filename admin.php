@@ -51,7 +51,7 @@
 		</div>
 		<?php
 
-			error_reporting(0);
+			// error_reporting(0);
 
 			require './vendor/autoload.php';
 
@@ -153,12 +153,10 @@
 					}
 				}
 
-				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+				$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007', $download = true);
 	 
-				header("Cache-Control: public");
-header("Content-Description: File Transfer");
-header("Content-Disposition: attachment; filename=ffff.docx");
-header("Content-Transfer-Encoding: binary");  
+				header('Content-Disposition: attachment; filename="report.docx"');
+				header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 				
 				ob_clean();
 				$objWriter->save('php://output');
