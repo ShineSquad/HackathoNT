@@ -58,15 +58,6 @@
 			use Kreait\Firebase\Factory;
 			use Kreait\Firebase\ServiceAccount;
 
-			$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
-
-				$database = $factory->createDatabase();
-				$reference = $database->getReference('teams');
-				$snapshot = $reference->getSnapshot();
-				$data = $snapshot->getValue();
-
-				var_dump($data);
-
 			function createReportInfo() {
 				$factory = (new Factory)->withServiceAccount('./php/hackathont-d9b44-ef6940892e5a.json');
 
