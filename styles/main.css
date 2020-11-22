@@ -73,13 +73,14 @@
 		#main .container header .navigation .nav_item:last-child a {
 			color: #FF8686;
 			text-decoration-line: underline;
-			font-family: MontserratBold;
+			font-family: MontserratMedium;
 		}
 		#main .container header .navigation .nav_item:last-child img {
-			margin-right: 12px;
+			margin-right: 8px;
 		}
 		#main .container header .navigation .nav_item:last-child:hover a {
 			color: #FF8686;
+			text-decoration: none;
 		}
 	#main .container header .navigation .nav_item:hover a {
 		color: #01FBFD;
