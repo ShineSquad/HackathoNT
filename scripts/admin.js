@@ -10,14 +10,20 @@ reg = () => {
 
 auth = () => {
 	var formData = new FormData(document.getElementById("authAdmin")),
-		postData = {};
+		postData = {},
+		error = document.getElementById('error');
 	for(var pair of formData.entries()) {
-	   	postData[pair[0]]=pair[1];
+		if (pair[1] === "") {
+			error.innerText = '* Заполните все поля';
+			return false;
+		} else {
+			postData[pair[0]]=pair[1];
+		}
 	}
 	postData['password'] = md5(postData['password']);
 	let users = firebase.database().ref("admins").orderByChild("name").equalTo(postData['name']).once("value", (resp) => {
 		if (resp.val() == null) {
-			alert('Пользователя с таким именем не существует')
+			error.innerText = '* Пользователя с таким именем не существует';
 		} else {
 			for (i in resp.val()) {
 				let passhash = postData['password'];
@@ -25,7 +31,7 @@ auth = () => {
 					localStorage.setItem("user", postData['name']);
 					window.location.href = "./admin.php";
 				} else {
-					alert('Неверный пароль')
+					error.innerText = '* Неверный пароль';
 				}
 			}
 		}
@@ -83,4 +89,16 @@ createTable2 = () => {
 			}
 		}
 	})
+}
+
+function show_hide_password(target){
+	var input = document.getElementById('password-input');
+	if (input.getAttribute('type') == 'password') {
+		target.classList.add('view');
+		input.setAttribute('type', 'text');
+	} else {
+		target.classList.remove('view');
+		input.setAttribute('type', 'password');
+	}
+	return false;
 }

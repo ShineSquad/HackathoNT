@@ -36,12 +36,16 @@
 				<form method="post" onSubmit="return false;" id="authAdmin">
 					<div class="item">
 						<p>Логин</p>
-						<input type="text" name="name" placeholder="Имя">
+						<input type="text" name="name">
 					</div>
 					<div class="item">
 						<p>Пароль</p>
-						<input type="password" name="password" placeholder="Пароль">
+						<div class="password">
+							<input type="password" name="password" id="password-input">
+							<a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+						</div>
 					</div>
+					<p id="error"></p>
 					<button onclick="auth()">Войти</button>
 				</form>
 			</div>

@@ -68,6 +68,12 @@ header {
 		.content form .item {
 			margin: 15px;
 		}
+		.content form #error {
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 18px;
+			color: #FF505A;
+		}
 			.content form .item p {
 				font-weight: 500;
 				font-size: 17px;
@@ -83,7 +89,12 @@ header {
 				background: #B7D4F0;
 				box-shadow: 3px 3px 8px rgba(30, 18, 102, 0.5);
 				border-radius: 3px;
+				font-weight: 500;
+				font-size: 15px;
+				line-height: 18px;
+				color: #131C23;
 			}
+				.content form .item input:focus { background: #DCEDFA; }
 	.content form button {
 		background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
 		border-radius: 5px;
@@ -144,9 +155,7 @@ footer {
 @media (max-width: 1200px) {
 	header .logo,
 	footer .connect,
-	footer .content .social a:first-child {
-		margin-left: 20px;
-	}
+	footer .content .social a:first-child { margin-left: 20px; }
 	footer .content .madeby { margin-right: 20px; }
 }
 @media (max-width: 979px) {
@@ -154,9 +163,27 @@ footer {
 	footer .connect { text-align: center; margin: 20px 0; }
 	footer .content { flex-direction: column; }
 		footer .content .social { flex-direction: column; }
-			footer .content .social a:first-child { margin-left: 0px; }
+			footer .content .social .icons a { margin: 10px; }
 			footer .content .social .mail { margin: 10px 0; }
 }
 @media (max-width: 400px) {
 	body { height: 100%; }
+}
+
+.password {
+	position: relative;
+}
+
+.password-control {
+	position: absolute;
+	top: 17.5px;
+	right: 15px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/view.svg) 0 0 no-repeat;
+}
+
+.password-control.view {
+	background: url(../images/private.svg) 0 0 no-repeat;
 }
