@@ -150,11 +150,13 @@ footer {
 	footer .content .madeby { margin-right: 20px; }
 }
 @media (max-width: 979px) {
-	body { height: 100%; }
 	.content .title p { text-align: center; }
 	footer .connect { text-align: center; margin: 20px 0; }
 	footer .content { flex-direction: column; }
 		footer .content .social { flex-direction: column; }
 			footer .content .social a:first-child { margin-left: 0px; }
 			footer .content .social .mail { margin: 10px 0; }
+}
+@media (max-width: 400px) {
+	body { height: 100%; }
 }
