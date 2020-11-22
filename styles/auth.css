@@ -187,3 +187,7 @@ footer {
 .password-control.view {
 	background: url(../images/private.svg) 0 0 no-repeat;
 }
+
+.bad_request {
+	background: #EEB1C6;
+}
