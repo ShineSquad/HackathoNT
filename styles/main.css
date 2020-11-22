@@ -31,10 +31,10 @@
 
 #main .container header .logo img {
 	width: 80px;
-	transition: transform 0.5s linear;
+	transition: transform 0.4s linear;
 }
 	#main .container header .logo:hover img {
-		transform: rotate(30deg);
+		transform: rotate(20deg);
 	}
 
 #main .container header .logo p {

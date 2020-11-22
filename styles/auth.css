@@ -29,11 +29,11 @@ header {
 		margin: 40px 0;
 	}
 		header .logo:hover img {
-			transform: rotate(30deg);
+			transform: rotate(20deg);
 		}
 		header .logo img { 
 			width: 80px;
-			transition: transform 0.5s linear;
+			transition: transform 0.4s linear;
 		}
 		header .logo p {
 			font-family: MontserratBold;
