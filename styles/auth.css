@@ -28,7 +28,13 @@ header {
 		cursor: pointer;
 		margin: 40px 0;
 	}
-		header .logo img { width: 80px; }
+		header .logo:hover img {
+			transform: rotate(30deg);
+		}
+		header .logo img { 
+			width: 80px;
+			transition: transform 0.5s linear;
+		}
 		header .logo p {
 			font-family: MontserratBold;
 			font-size: 15px;
@@ -53,7 +59,7 @@ header {
 			line-height: 37px;
 		}
 		.content .title .link {
-			font-weight: 500;
+			font-family: MontserratMedium;
 			font-size: 15px;
 			line-height: 18px;
 			text-decoration-line: underline;
@@ -75,7 +81,7 @@ header {
 			color: #FF505A;
 		}
 			.content form .item p {
-				font-weight: 500;
+				font-family: MontserratMedium;
 				font-size: 17px;
 				line-height: 21px;
 				color: #B7D4F0;
@@ -89,12 +95,15 @@ header {
 				background: #B7D4F0;
 				box-shadow: 3px 3px 8px rgba(30, 18, 102, 0.5);
 				border-radius: 3px;
-				font-weight: 500;
 				font-size: 15px;
 				line-height: 18px;
 				color: #131C23;
+				font-family: MontserratMedium;
 			}
-				.content form .item input:focus { background: #DCEDFA; }
+				.content form .item input:focus { 
+					background: #F7FBFF; 
+					outline: none;
+				}
 	.content form button {
 		background: linear-gradient(90deg, #FF8686 0%, #FF5271 100%);
 		border-radius: 5px;
@@ -112,7 +121,7 @@ header {
 		margin-top: 70px;
 	}
 		.content form button:hover {
-			background: linear-gradient(90deg, #FF5271 0%, #FF8686 100%);
+			background: #F74465;
 		}
 footer {
 	height: auto;
@@ -123,7 +132,7 @@ footer {
 	margin: 50px 0;
 }
 	footer .connect {
-		font-weight: 500;
+		font-family: MontserratMedium;
 		font-size: 18px;
 		line-height: 22px;
 		margin-bottom: 23px;
@@ -148,7 +157,7 @@ footer {
 				font-family: MontserratBold;
 			}
 		footer .content .madeby {
-			font-weight: 500;
+			font-family: MontserratMedium;
 			font-size: 16px;
 			line-height: 20px;
 		}
@@ -186,8 +195,4 @@ footer {
 
 .password-control.view {
 	background: url(../images/private.svg) 0 0 no-repeat;
-}
-
-.bad_request {
-	background: #EEB1C6;
 }

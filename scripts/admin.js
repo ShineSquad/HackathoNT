@@ -11,10 +11,14 @@ reg = () => {
 auth = () => {
 	var formData = new FormData(document.getElementById("authAdmin")),
 		postData = {},
-		error = document.getElementById('error');
+		error = document.getElementById('error'),
+		name = document.getElementById('name-input'),
+		password = document.getElementById('password-input');
 	for(var pair of formData.entries()) {
 		if (pair[1] === "") {
 			error.innerText = '* Заполните все поля';
+			name.style.backgroundColor = "#EEB1C6";
+			password.style.backgroundColor = "#EEB1C6";
 			return false;
 		} else {
 			postData[pair[0]]=pair[1];
@@ -24,6 +28,8 @@ auth = () => {
 	let users = firebase.database().ref("admins").orderByChild("name").equalTo(postData['name']).once("value", (resp) => {
 		if (resp.val() == null) {
 			error.innerText = '* Пользователя с таким именем не существует';
+			name.style.backgroundColor = "#EEB1C6";
+			password.style.backgroundColor = "#B7D4F0";
 		} else {
 			for (i in resp.val()) {
 				let passhash = postData['password'];
@@ -32,6 +38,8 @@ auth = () => {
 					window.location.href = "./admin.php";
 				} else {
 					error.innerText = '* Неверный пароль';
+					password.style.backgroundColor = "#EEB1C6";
+					name.style.backgroundColor = "#B7D4F0";
 				}
 			}
 		}

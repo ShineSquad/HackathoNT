@@ -31,7 +31,11 @@
 
 #main .container header .logo img {
 	width: 80px;
+	transition: transform 0.5s linear;
 }
+	#main .container header .logo:hover img {
+		transform: rotate(30deg);
+	}
 
 #main .container header .logo p {
 	font-family: MontserratBold;
@@ -57,6 +61,26 @@
 	cursor: pointer;
 	user-select: none;
 }
+	#main .container header .navigation .nav_item:last-child {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		font-size: 15px;
+		line-height: 18px;
+		margin-left: 60px;
+		cursor: pointer;
+	}
+		#main .container header .navigation .nav_item:last-child a {
+			color: #FF8686;
+			text-decoration-line: underline;
+			font-family: MontserratBold;
+		}
+		#main .container header .navigation .nav_item:last-child img {
+			margin-right: 12px;
+		}
+		#main .container header .navigation .nav_item:last-child:hover a {
+			color: #FF8686;
+		}
 	#main .container header .navigation .nav_item:hover a {
 		color: #01FBFD;
 	}

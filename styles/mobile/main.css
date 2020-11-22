@@ -73,6 +73,24 @@
 		margin: 80px;
 		font-size: 0.5em;
 	}
+		#main .container header .navigation.active ~ .mobile_content .nav_menu .nav_item:last-child {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			font-size: 0.5em;
+			line-height: 18px;
+			margin-left: 60px;
+			cursor: pointer;
+		}
+			#main .container header .navigation.active ~ .mobile_content .nav_menu .nav_item:last-child a {
+				color: #FF8686;
+				text-decoration-line: underline;
+				font-family: MontserratBold;
+			}
+			#main .container header .navigation.active ~ .mobile_content .nav_menu .nav_item:last-child img {
+				width: 50px;
+				margin-right: 20px;
+			}
 		#main .container header .navigation.active ~ .mobile_content .nav_menu .nav_item a:hover {
 			color: #01FBFD;
 		}

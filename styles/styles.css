@@ -6,11 +6,19 @@
 }
 
 @font-face{
+	font-family: 'MontserratMedium';
+	src: url('fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
 	font-family: 'MontserratBold';
 	src: url('fonts/Montserrat-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
+
 * {
 	padding: 0;
 	margin: 0;

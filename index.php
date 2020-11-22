@@ -70,6 +70,12 @@
 						<li class="nav_item"><a href="#tasks">Задача</a></li>
 						<li class="nav_item"><a href="#requirements">Правила</a></li>
 						<li class="nav_item"><a href="#footer">Организаторы</a></li>
+						<a href="auth.html" target="_blank">
+							<li class="nav_item">
+								<img src="images/smile.png">
+								<a href="auth.html" target="_blank">Админам</a>
+							</li>
+						</a>
 					</ul>
 					<div class="mobile_block">
 						<div class="mobile_logo">
@@ -90,6 +96,12 @@
 							<li class="nav_item"><a href="#tasks">Задача</a></li>
 							<li class="nav_item"><a href="#requirements">Правила</a></li>
 							<li class="nav_item"><a href="#footer">Организаторы</a></li>
+							<a href="auth.html" target="_blank">
+								<li class="nav_item">
+									<img src="images/smile.png">
+									<a href="auth.html" target="_blank">Админам</a>
+								</li>
+							</a>
 						</ul>
 						<p class="address">Нижний Тагил, пр. Мира 2А <br>16-18 окт 2020</p>
 						<a href="https://drive.google.com/file/d/12apWflmEQSDtllqESoGeMS2RT9mGLNLz/view?usp=sharing" target="_blank" style="color: #182B60">
