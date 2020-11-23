@@ -1,34 +1,74 @@
+date = () => {
+	let day = document.querySelector('.day'),
+		month = document.querySelector('.month'),
+		year = document.querySelector('.year'),
+		months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+	for (i = 1; i < 32; i++) {
+		let option = document.createElement('option');
+		option.value = i;
+		option.innerText = i;
+		day.appendChild(option);
+	}
+	for (j = 0; j < months.length; j++) {
+		let option = document.createElement('option');
+		option.value = j+1;
+		option.innerText = months[j];
+		month.appendChild(option);
+	}
+	for (k = 1900; k < new Date().getFullYear()+1; k++) {
+		let option = document.createElement('option');
+		option.value = k;
+		option.innerText = k;
+		year.appendChild(option);
+	}
+}
+
 createTeam = () => {
 	var formData = new FormData(document.getElementById("team_lead")),
 		postData = {},
-		roles = [];
+		roles = [],
+		date = [],
+		optional = [];
 	for(var pair of formData.entries()) {
 	   postData[pair[0]]=pair[1];
 		if (pair[0] == 'role' && pair[1] != "") {
 			roles.push(pair[1]);
 		}
+		if (pair[0] == 'birth_date' && pair[1] != "") {
+			date.push(pair[1]);
+		}
+		if (pair[0] == 'optional_equipment' && pair[1] != "") {
+			optional.push(pair[1]);
+		}
 	}
 	postData['role'] = roles.join(', ');
+	postData['birth_date'] = date.join('/');
+	postData['optional_equipment'] = optional.join('');
 	let teamArr = {
-		name_team: postData['name_team'],
+		team_name: postData['team_name'],
 		optional_equipment: postData['optional_equipment'],
+		target: postData['target'],
 		participants: {
 			1: {
-				name_part: postData['name_part'],
-				mail_part: postData['mail_part'],
+				name: postData['name'],
+				mail: postData['mail'],
+				phone: postData['phone'],
+				city: postData['city'],
+				birth_date: postData['birth_date'],
 				link_social: postData['link_social'],
 				role: postData['role'],
 				work_place: postData['work_place']
 			}
 		}
 	}
+	console.log(teamArr)
 	firebase
 		.database()
 		.ref("teams/")
-		.child(postData['name_team'])
+		.child(postData['team_name'])
 			.set(teamArr);
 
-	localStorage.setItem('team', postData['name_team']);
+	localStorage.setItem('team', postData['team_name']);
 	createNewForm(1, postData['participants_count']);
 
 }
@@ -44,17 +84,59 @@ createNewForm = (count, maxPart) => {
 		"project": "Проект-менеджер", 
 		"front": "Frontend-разработчик", 
 		"back": "Backend-разработчик", 
-		"design": "Дизайнер"
+		"design": "Дизайнер",
+		"other": "Другое"
 	};
+	let months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
 	let form = document.createElement('form'),
-		name_part = document.createElement('input'),
-		mail_part = document.createElement('input'),
-		link_social = document.createElement('input'),
-		work_place = document.createElement('input'),
+		form_container = document.createElement('div'),
+		left_part = document.createElement('div'),
+		right_part = document.createElement('div'),
+		name_title = document.createElement('p'),
+			name_part = document.createElement('input'),
+		mail_title = document.createElement('p'),
+			mail_part = document.createElement('input'),
+		phone_title = document.createElement('p'),
+			phone_part = document.createElement('input'),
+		city_title = document.createElement('p'),
+			city_part = document.createElement('input'),
+		link_social_title = document.createElement('p'),
+			link_social = document.createElement('input'),
+		target_title = document.createElement('p'),
+			target = document.createElement('textarea'),
+		work_place_title = document.createElement('p'),
+			work_place = document.createElement('input'),
+		date_hidden = document.createElement('input'),
+		date_title = document.createElement('p'),
+			birth_date = document.createElement('div'),
+				day = document.createElement('select'),
+				month = document.createElement('select'),
+				year = document.createElement('select'),
 		role_hidden = document.createElement('input'),
 		role_container = document.createElement('div'),
 		role_title = document.createElement('p'),
-		button = document.createElement('button');
+		feedback_container = document.createElement('div'),
+		button = document.createElement('button'),
+		error = document.createElement('p');
+
+	for (i = 1; i < 32; i++) {
+		let option = document.createElement('option');
+		option.value = i;
+		option.innerText = i;
+		day.appendChild(option);
+	}
+	for (j = 0; j < months.length; j++) {
+		let option = document.createElement('option');
+		option.value = j+1;
+		option.innerText = months[j];
+		month.appendChild(option);
+	}
+	for (k = 1900; k < new Date().getFullYear()+1; k++) {
+		let option = document.createElement('option');
+		option.value = k;
+		option.innerText = k;
+		year.appendChild(option);
+	}
 
 	main.appendChild(form);
 
@@ -63,37 +145,98 @@ createNewForm = (count, maxPart) => {
 	form.classList.add("form_part");
 	form.id = "form_part" + count;
 
-	form.appendChild(name_part);
-	form.appendChild(mail_part);
-	form.appendChild(link_social);
-	form.appendChild(work_place);
-	form.appendChild(role_hidden);
-	form.appendChild(role_container);
-	form.appendChild(button);
+	form.appendChild(form_container);
+	
+	form_container.appendChild(left_part);
+	form_container.appendChild(right_part);
 
-	name_part.name = "name_part";
-	mail_part.name = "mail_part";
+	form_container.classList.add('form_container');
+	left_part.classList.add('left_part');
+	right_part.classList.add('right_part');
+
+	name_title.innerText = 'Ваше ФИО';
+	mail_title.innerText = 'E-mail';
+	link_social_title.innerText = 'Ссылка на соц.сети';
+	work_place_title.innerText = 'Место работы или учебы';
+	phone_title.innerText = 'Телефон';
+	city_title.innerText = 'Город';
+	target_title.innerText = 'Почему вы должны участвовать в данном хакатоне?';
+	date_title.innerText = 'Дата рождения';
+
+	name_title.classList.add('input_title');
+	date_title.classList.add('input_title');
+	role_title.classList.add('input_title');
+	city_title.classList.add('input_title');
+	work_place_title.classList.add('input_title');
+	target_title.classList.add('input_title');
+	link_social_title.classList.add('input_title');
+	mail_title.classList.add('input_title');
+	phone_title.classList.add('input_title');
+
+	left_part.appendChild(name_title);
+	left_part.appendChild(name_part);
+	left_part.appendChild(date_title);
+	left_part.appendChild(date_hidden);
+	left_part.appendChild(birth_date);
+		birth_date.appendChild(day);
+		birth_date.appendChild(month);
+		birth_date.appendChild(year);
+	left_part.appendChild(role_hidden);
+	left_part.appendChild(role_title);
+		left_part.appendChild(role_container);
+	left_part.appendChild(city_title);
+		left_part.appendChild(city_part);
+	left_part.appendChild(work_place_title);
+		left_part.appendChild(work_place);
+
+	right_part.appendChild(target_title);
+		right_part.appendChild(target);
+	right_part.appendChild(link_social_title);
+		right_part.appendChild(link_social);
+	right_part.appendChild(mail_title);
+		right_part.appendChild(mail_part);
+	right_part.appendChild(phone_title);
+		right_part.appendChild(phone_part);
+	
+	form.appendChild(feedback_container);
+	feedback_container.appendChild(button);
+	feedback_container.appendChild(error);
+
+	feedback_container.classList.add('feedback_container');
+
+	name_part.name = "name";
+	mail_part.name = "mail";
 	link_social.name = "link_social";
 	work_place.name = "work_place";
 	role_hidden.name = "role";
+	phone_part.name = "phone";
+	city_part.name = "city";
+	target.name = "target";
+	date_hidden.name = "birth_date";
+	day.name = "birth_date";
+	month.name = "birth_date";
+	year.name = "birth_date";
+
+	birth_date.id = 'birth_date';
+	day.classList.add('day');
+	month.classList.add('month');
+	year.classList.add('year');
+
+	date_hidden.style.display = "none";
 
 	name_part.pattern = "[a-zA-Zа-яА-Я\s]{3,}";
 	mail_part.pattern = "^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,}$";
 	link_social.pattern = "[0-9a-zA-Zа-яА-Я!-_\s]{3,}";
 	work_place.pattern = "[a-zA-Zа-яА-Я\s]{3,}";
 
-	name_part.placeholder = "ФИО участника";
-	mail_part.placeholder = "Почта участника";
-	link_social.placeholder = "Ссылка на социальные сети";
-	work_place.placeholder = "Учебное заведение или место работы участника";
-
 	name_part.type = "text";
 	mail_part.type = "text";
 	link_social.type = "text";
 	work_place.type = "text";
 	role_hidden.type = "text";
-
-	role_container.appendChild(role_title);
+	phone_part.type = 'text';
+	city_part.type = 'text';
+	date_hidden.type = 'text';
 
 	role_hidden.style.display = "none";
 	role_container.classList.add('role');
@@ -126,14 +269,19 @@ addParticipant = (formNumber, maxPart) => {
 		formData = new FormData(document.getElementById(formName)),
 		postData = {},
 		roles = [],
+		date = [],
 		team = localStorage.getItem('team');
 	for(var pair of formData.entries()) {
 	   postData[pair[0]]=pair[1];
 		if (pair[0] == 'role' && pair[1] != "") {
 			roles.push(pair[1]);
 		}
+		if (pair[0] == 'birth_date' && pair[1] != "") {
+			date.push(pair[1]);
+		}
 	}
 	postData['role'] = roles.join(', ');
+	postData['birth_date'] = date.join('/');
 
 	firebase
 		.database()
@@ -151,14 +299,19 @@ end = (formNumber, maxPart) => {
 		formData = new FormData(document.getElementById(formName)),
 		postData = {},
 		roles = [],
+		date = [],
 		team = localStorage.getItem('team');
 	for(var pair of formData.entries()) {
 	   postData[pair[0]]=pair[1];
 		if (pair[0] == 'role' && pair[1] != "") {
 			roles.push(pair[1]);
 		}
+		if (pair[0] == 'birth_date' && pair[1] != "") {
+			date.push(pair[1]);
+		}
 	}
 	postData['role'] = roles.join(', ');
+	postData['birth_date'] = date.join('/');
 
 	firebase
 		.database()
