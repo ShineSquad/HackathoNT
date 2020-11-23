@@ -48,9 +48,15 @@
 			</header>
 			<div id="form">
 				<div class="title_container">
-					<p class="title">Заявка на участие</p>
+					<p class="title">1. Заявка на участие от команды</p>
 					<p class="subtitle">Хакатон Big Data 25-27 декабря 2020 года</p>
-					<p class="all">Заполните все поля:</p>
+					<div class="under_subtitle">
+						<p class="upper">Заявка на участие подаётся капитаном команды.</p>
+						<p class="default">
+							Сначала укажите информацию о вашей команде и себе, заполнив все поля.
+							Потом перейдите к добавлению участников (вам понадобится информация о других участниках).
+						</p>
+					</div>
 				</div>
 				<form id="team_lead" method="post" onSubmit="return false;">
 					<div class="form_content">
@@ -137,8 +143,8 @@
 						</div>
 					</div>
 					<div class="feedback">
-						<button onclick="createTeam()">Далее</button>
 						<p id="error"></p>
+						<button onclick="createTeam()">Добавить других участников</button>
 					</div>
 				</form>
 			</div>
