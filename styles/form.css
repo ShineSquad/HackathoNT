@@ -606,6 +606,12 @@ footer {
 	#form #team_lead .feedback button {
 		width: 320px;
 	}
+	#form #team_lead .feedback button {
+		font-size: 15px;
+	}
+	.modal {
+		width: 320px;
+	}
 }
 
 #shadow {
