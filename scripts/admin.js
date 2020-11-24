@@ -55,19 +55,37 @@ createTable = () => {
 				team = resp.val()[i];
 			table.appendChild(tr);
 			tr.appendChild(td);
-			td.colSpan = 2;
-			td.innerText = team.name_team;
+			td.colSpan = 8;
+			td.innerText = team.team_name;
 			td.classList.add('title_team');
 			for (j in team.participants) {
 				let tr_td = document.createElement('tr'),
 					td_name = document.createElement('td'),
-					td_mail = document.createElement('td');
+					td_mail = document.createElement('td'),
+					td_phone = document.createElement('td'),
+					td_city = document.createElement('td'),
+					td_date = document.createElement('td'),
+					td_work = document.createElement('td'),
+					td_social = document.createElement('td'),
+					td_roles = document.createElement('td');
 
 				table.appendChild(tr_td);
 				tr_td.appendChild(td_name);
 				tr_td.appendChild(td_mail);
-				td_name.innerText = team.participants[j].name_part;
-				td_mail.innerText = team.participants[j].mail_part
+				tr_td.appendChild(td_phone);
+				tr_td.appendChild(td_date);
+				tr_td.appendChild(td_city);
+				tr_td.appendChild(td_work);
+				tr_td.appendChild(td_social);
+				tr_td.appendChild(td_roles);
+				td_social.innerText = team.participants[j].link_social;
+				td_name.innerText = team.participants[j].name;
+				td_phone.innerText = team.participants[j].phone;
+				td_city.innerText = team.participants[j].city;
+				td_work.innerText = team.participants[j].work_place;
+				td_date.innerText = team.participants[j].birth_date;
+				td_mail.innerText = team.participants[j].mail;
+				td_roles.innerText = team.participants[j].role;
 			}
 		}
 	})
@@ -83,7 +101,7 @@ createTable2 = () => {
 			table.appendChild(tr);
 			tr.appendChild(td);
 			td.colSpan = 2;
-			td.innerText = team.name_team;
+			td.innerText = team.team_name;
 			td.classList.add('title_team');
 			for (j in team.participants) {
 				let tr_td = document.createElement('tr'),
@@ -93,7 +111,7 @@ createTable2 = () => {
 				table.appendChild(tr_td);
 				tr_td.appendChild(td_name);
 				tr_td.appendChild(td_mail);
-				td_name.innerText = team.participants[j].name_part;
+				td_name.innerText = team.participants[j].name;
 			}
 		}
 	})

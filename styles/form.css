@@ -75,6 +75,7 @@ header {
 		}
 		#form .title_container .under_subtitle .default {
 			font-family: MontserratMedium;
+			white-space: pre-line;
 			font-size: 15px;
 			line-height: 25px;
 			color: #FFFFFF;
