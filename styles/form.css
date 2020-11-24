@@ -602,7 +602,10 @@ footer {
 		width: 280px;
 	}
 	#form #team_lead .form_content .left_part #birth_date,
-	#form .form_part .form_container .left_part #birth_date,
+	#form .form_part .form_container .left_part #birth_date {
+		width: 340px;
+	}
+
 	#form #team_lead .feedback button {
 		width: 320px;
 	}
@@ -610,7 +613,7 @@ footer {
 		font-size: 15px;
 	}
 	.modal {
-		width: 320px;
+		width: 320px!important;
 	}
 }
 

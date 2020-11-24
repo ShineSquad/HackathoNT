@@ -401,9 +401,10 @@ end = (formNumber, maxPart) => {
 }
 
 function back() {
-	let shadow = document.getElementById('shadow'),
-		modal = document.getElementById('modal_container');
-	document.body.style.overflowY = 'scroll';
-	shadow.style.display = "none";
-	modal.style.display = "none";
+	// let shadow = document.getElementById('shadow'),
+	// 	modal = document.getElementById('modal_container');
+	// document.body.style.overflowY = 'scroll';
+	// shadow.style.display = "none";
+	// modal.style.display = "none";
+	location.href = "./index.php";
 }
