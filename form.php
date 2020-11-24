@@ -12,6 +12,8 @@
 		<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
 		<script type="text/javascript" src="scripts/fb_init.js"></script>
 		<script type="text/javascript" src="scripts/form.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/form.css">
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<?php
 			require_once "php/check_mobile.php";
 			if ( check_mobile() ) {
@@ -24,10 +26,10 @@
 			}
 			else {
 				?>
-					<link rel="stylesheet" type="text/css" href="styles/styles.css">
+					
 
 					<link rel="stylesheet" type="text/css" href="styles/main.css">
-					<link rel="stylesheet" type="text/css" href="styles/form.css">
+					
 				<?php
 			}
 		?>

@@ -571,7 +571,9 @@ footer {
 	#form .title_container .title,
 	#form .title_container .under_subtitle .upper,
 	#form .title_container .under_subtitle .default,
-	#form .title_container .subtitle {
+	#form .title_container .subtitle,
+	#form .form_part .form_container .left_part .input_title, 
+	#form .form_part .form_container .right_part .input_title {
 		text-align: center;
 		padding: 0 10px;
 	}
@@ -591,6 +593,17 @@ footer {
 	}
 	footer .content .social a {
 		margin-top: 30px;
+	}
+	#form #team_lead .form_content .left_part input[type="text"], 
+	#form #team_lead .form_content .right_part input[type="text"],
+	#form #team_lead .form_content .right_part textarea,
+	#form .form_part .form_container .left_part input[type="text"], 
+	#form .form_part .form_container .right_part input[type="text"] {
+		width: 280px;
+	}
+	#form #team_lead .form_content .left_part #birth_date,
+	#form .form_part .form_container .left_part #birth_date {
+		width: 320px;
 	}
 }
 
