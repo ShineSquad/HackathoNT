@@ -134,6 +134,12 @@ header {
 				white-space: pre-line;
 				padding: 0 10px 0 20px;
 			}
+			.tables .main_container .short_container table th {
+				font-size: 16px;
+			}
+			.tables .main_container .short_container table .item_line td {
+				font-size: 16px !important;
+			}
 			.tables .main_container table .title_team {
 				background: #DDDDDD;
 				height: 50px;
@@ -187,7 +193,10 @@ header {
 			.tables .main_container table th:nth-child(9) { width: 90px; }
 
 		.tables .main_container .short_container table th {
-			width: 580px;
+			width: 870px;
+		}
+		.tables .main_container .short_container table th:last-child {
+			width: 290px;
 		}
 
 

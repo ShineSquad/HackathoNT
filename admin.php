@@ -319,14 +319,14 @@
 		$phpWord->addTableStyle('Colspan Rowspan', $styleTable);
 		$table = $section->addTable('Colspan Rowspan');
 		$table->addRow(null, array('tblHeader' => true));
-		$table->addCell(7000, $sectionHr)->addText(
+		$table->addCell(10500, $sectionHr)->addText(
 			'ФИО', 
-			array('bold' => true, 'size' => 12), 
+			array('bold' => true, 'size' => 16), 
 			$fontHr
 		);
-		$table->addCell(7000, $sectionHr) -> addText(
+		$table->addCell(3500, $sectionHr) -> addText(
 			'Роспись', 
-			array('bold' => true, 'size' => 12), 
+			array('bold' => true, 'size' => 16), 
 			$fontHr
 		);
 
@@ -351,27 +351,27 @@
 					else { $cellVCentered = $sectionUserOdd; }
 					if ($ev_count % 2) {
 						$table->addRow(null, array('tblHeader' => true));
-						$table->addCell(7000, $$cellVCentered) -> addText(
+						$table->addCell(10500, $$cellVCentered) -> addText(
 							$user_count.". ".$name, 
-							array('bold' => false, 'size' => 13), 
+							array('bold' => false, 'size' => 16), 
 							$fontUser
 						);
-						$table->addCell(7000, $$cellVCentered) -> addText(
+						$table->addCell(3500, $$cellVCentered) -> addText(
 							'', 
-							array('bold' => false, 'size' => 13), 
+							array('bold' => false, 'size' => 16), 
 							$fontUser
 						);
 						$user_count++;
 					} else {
 						$table->addRow(null, array('tblHeader' => true));
-						$table->addCell(7000, $sectionUserEven) -> addText(
+						$table->addCell(10500, $sectionUserEven) -> addText(
 							$user_count.". ".$name, 
-							array('bold' => false, 'size' => 13), 
+							array('bold' => false, 'size' => 16), 
 							$fontUser
 						);
-						$table->addCell(7000, $sectionUserEven) -> addText(
+						$table->addCell(3500, $sectionUserEven) -> addText(
 							'', 
-							array('bold' => false, 'size' => 13), 
+							array('bold' => false, 'size' => 16), 
 							$fontUser
 						);
 						$user_count++;
