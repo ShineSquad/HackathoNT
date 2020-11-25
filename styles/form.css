@@ -527,6 +527,9 @@ footer {
 		}
 
 @media (max-width: 1050px) {
+	header {
+		justify-content: center;
+	}
 	#form #team_lead,
 	#form .form_part,
 	#form .title_container {

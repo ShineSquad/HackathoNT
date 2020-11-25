@@ -14,25 +14,6 @@
 		<script type="text/javascript" src="scripts/form.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles/form.css">
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
-		<?php
-			require_once "php/check_mobile.php";
-			if ( check_mobile() ) {
-				?>
-					<link rel="stylesheet" type="text/css" href="styles/mobile/styles.css">
-
-					<link rel="stylesheet" type="text/css" href="styles/mobile/main.css">
-					<link rel="stylesheet" type="text/css" href="styles/mobile/form.css">
-				<?php
-			}
-			else {
-				?>
-					
-
-					<link rel="stylesheet" type="text/css" href="styles/main.css">
-					
-				<?php
-			}
-		?>
 	</head>
 	<body>
 		<script type="text/javascript">
