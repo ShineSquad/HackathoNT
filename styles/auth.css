@@ -119,6 +119,7 @@ header {
 		line-height: 21px;
 		color: #182B60;
 		margin-top: 70px;
+		outline: none;
 	}
 		.content form button:hover {
 			background: #F74465;

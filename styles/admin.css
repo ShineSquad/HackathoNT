@@ -65,6 +65,7 @@ header {
 			line-height: 22px;
 			color: #07738F;
 			font-family: MontserratSemiBold;
+			outline: none;
 		}
 		.tables .button_container .small_btn {
 			border: none;
@@ -80,6 +81,7 @@ header {
 			line-height: 22px;
 			color: #07738F;
 			font-family: MontserratSemiBold;
+			outline: none;
 		}
 			.active_btn {
 				background: #FFFFFF !important;

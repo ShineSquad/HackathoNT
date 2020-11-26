@@ -293,6 +293,7 @@ header {
 			border: none;
 			cursor: pointer;
 			text-transform: uppercase;
+			outline: none;
 		}
 			#form #team_lead .feedback button:hover {
 				background: #F74465;
@@ -326,6 +327,7 @@ header {
 			border: none;
 			cursor: pointer;
 			text-transform: uppercase;
+			outline: none;
 		}
 			#form .form_part .feedback_container button:hover {
 				background: #F74465;
