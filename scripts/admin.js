@@ -20,6 +20,23 @@ switchShortTable = () => {
 	short_container.style.display = "flex";
 }
 
+back_admin = () => {
+	console.log(1);
+	let preview_list = document.querySelector('.preview_list'),
+		tables = document.querySelector('.tables'),
+		container = document.querySelector('.container');
+	tables.style.display = "none";
+	preview_list.style.display = "flex";
+}
+
+openEvent = () => {
+	let preview_list = document.querySelector('.preview_list'),
+		tables = document.querySelector('.tables'),
+		container = document.querySelector('.container');
+	tables.style.display = "flex";
+	preview_list.style.display = "none";
+}
+
 reg = () => {
 	var formData = new FormData(document.getElementById("regAdmin")),
 		postData = {};
