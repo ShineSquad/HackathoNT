@@ -1,5 +1,5 @@
 function updateTimer() {
-	const end = new Date(2020, 9, 16, 16, 0, 0);
+	const end = new Date(2020, 11, 6, 12, 0, 0);
 	let current = new Date(),
 		diff = (end - current) / 1000,
 		s = Math.round( diff % 60 ),
@@ -31,9 +31,9 @@ window.onload = () => {
 		"seconds": document.querySelector("#timer > .timer_item > .timer_item_block > ._seconds")
 	}
 
-	// displayTimer(nodes, updateTimer());
+	displayTimer(nodes, updateTimer());
 
-	// setInterval(() => displayTimer(nodes, updateTimer()) , 1000)
+	setInterval(() => displayTimer(nodes, updateTimer()) , 1000)
 
 	setTimeout(() => {
 		document.body.classList.toggle("onload");

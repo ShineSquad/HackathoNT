@@ -61,7 +61,6 @@ createTeam = () => {
 			}
 		}
 	}
-	console.log(teamArr)
 	firebase
 		.database()
 		.ref("teams/")
