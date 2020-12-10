@@ -31,9 +31,9 @@ window.onload = () => {
 		"seconds": document.querySelector("#timer > .timer_item > .timer_item_block > ._seconds")
 	}
 
-	displayTimer(nodes, updateTimer());
+	// displayTimer(nodes, updateTimer());
 
-	setInterval(() => displayTimer(nodes, updateTimer()) , 1000)
+	// setInterval(() => displayTimer(nodes, updateTimer()) , 1000)
 
 	setTimeout(() => {
 		document.body.classList.toggle("onload");
